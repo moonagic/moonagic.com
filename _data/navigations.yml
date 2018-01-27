@@ -1,0 +1,8 @@
+- page: Home
+  url: /
+- page: Twitter
+  url: totwitter
+- page: Github
+  url: togithub
+- page: About
+  url: /about

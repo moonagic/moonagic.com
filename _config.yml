@@ -1,0 +1,40 @@
+
+# Basic site information.
+# TODO: You can change it to your information.
+
+name: 月光林地
+description: Feral CLaw, Cyclone, Heart of Tranquility
+meta_description: 月杪的个人博客
+
+logo: /avatar.jpg
+navigation: true
+paginate: 10
+
+
+# Less important changes below. (Code-highlighting, markdown)
+
+highlighter: rouge
+markdown: kramdown
+permalink: /:title
+
+
+# Feed!
+
+feed:
+  path: feed.xml
+
+
+# However, pagination is important.
+
+gems: [jekyll-paginate, rouge]
+
+
+# This is for author page generation.
+
+collections:
+  authors: {output: true, permalink: '/authors/:path/'}
+defaults:
+- scope: {path: '', type: authors}
+  values: {layout: author}
+
+
