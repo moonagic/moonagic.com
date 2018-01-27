@@ -3,7 +3,7 @@ layout: post
 title:  HTC one 入手感受
 date:   2013-11-09
 tags:   心情
-author: Moon
+author: 月杪
 ---
 
 前段时间心血来潮买了部htc one

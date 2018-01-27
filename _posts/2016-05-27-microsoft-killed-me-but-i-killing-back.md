@@ -2,7 +2,7 @@
 layout: post
 title: 微软注销了我使用多年的@msn.com邮箱
 date: 2016-05-27
-author: Moon
+author: 月杪
 tags: [Microsoft]
 description: 微软注销了我使用多年的@msn.com邮箱
 ---

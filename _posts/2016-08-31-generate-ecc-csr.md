@@ -2,7 +2,7 @@
 layout: post
 title: 生成申请 ECC 证书所需的 CSR 文件
 date: 2016-08-31
-author: Moon
+author: 月杪
 tags: [SSL]
 description: 生成申请 ECC 证书所需的 CSR 文件
 ---

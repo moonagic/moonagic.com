@@ -2,7 +2,7 @@
 layout: post
 title: 对exe文件添加管理员执行权限
 date: 2017-04-24
-author: Moon
+author: 月杪
 tags: [其他]
 description: 对exe文件添加管理员执行权限
 ---

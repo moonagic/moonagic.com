@@ -2,7 +2,7 @@
 layout: post
 title: 快速统计项目代码行数
 date: 2017-06-11
-author: Moon
+author: 月杪
 tags: [技巧]
 description: 快速统计项目代码行数
 ---

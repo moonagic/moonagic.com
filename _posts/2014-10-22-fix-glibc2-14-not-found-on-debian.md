@@ -2,7 +2,7 @@
 layout: post
 title: Debian安装Ghost时提示glibc_2.14 not found的解决办法
 date: 2014-10-22
-author: Moon
+author: 月杪
 tags: [Ghost]
 description: Debian安装Ghost时提示glibc_2.14 not found的解决办法
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: 利用nghttpx 搭建HTTP/2代理
 date: 2016-11-02
-author: Moon
+author: 月杪
 tags: [Proxy]
 description: 利用nghttpx 搭建HTTP/2代理
 ---

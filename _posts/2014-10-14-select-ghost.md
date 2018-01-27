@@ -2,7 +2,7 @@
 layout: post
 title: 将博客迁移到Ghost
 date: 2014-10-14
-author: Moon
+author: 月杪
 tags: [Ghost]
 description: 将博客迁移到Ghost
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: 解决Chrome系统菜单字体无法禁用DirectWrite的问题
 date: 2015-09-06
-author: Moon
+author: 月杪
 tags: [Chrome]
 description: 解决Chrome系统菜单字体无法禁用DirectWrite的问题
 ---

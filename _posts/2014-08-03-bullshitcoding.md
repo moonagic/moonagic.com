@@ -2,7 +2,7 @@
 layout: post
 title: 写垃圾代码的唯一理由
 date: 2014-08-03
-author: Moon
+author: 月杪
 tags: [心情, 程序员]
 description: 写垃圾代码的唯一理由
 ---

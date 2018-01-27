@@ -2,7 +2,7 @@
 layout: post
 title: When we first met I was just a kid
 date: 2015-11-30
-author: Moon
+author: 月杪
 tags: [KobeBryant]
 description: When we first met I was just a kid
 ---

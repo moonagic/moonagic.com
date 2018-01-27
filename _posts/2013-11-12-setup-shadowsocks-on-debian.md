@@ -3,7 +3,7 @@ layout: post
 title:  Debian下通过自编译shadowsocks-libev搭建shadowsocks
 date:   2013-11-12
 tags:   Shadowsocks
-author: Moon
+author: 月杪
 ---
 
 1.必要的更新

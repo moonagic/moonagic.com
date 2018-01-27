@@ -2,7 +2,7 @@
 layout: post
 title: 在Debian上搭建Gitlab,并禁用内嵌Nginx
 date: 2016-04-19
-author: Moon
+author: 月杪
 tags: [Gitlab]
 description: 在Debian上搭建Gitlab,并禁用内嵌Nginx
 ---

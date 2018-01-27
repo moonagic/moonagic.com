@@ -2,7 +2,7 @@
 layout: post
 title: Lightsword-一个和Shadowsocks类似的工具
 date: 2016-03-18
-author: Moon
+author: 月杪
 tags: [其他]
 description: Lightsword-一个和Shadowsocks类似的工具
 ---

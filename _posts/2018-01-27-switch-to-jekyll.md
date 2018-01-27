@@ -3,7 +3,7 @@ layout: post
 title:  博客从Ghost切换到Jekyll
 date:   2018-01-27
 tags:   Jekyll
-author: Moon
+author: 月杪
 ---
 
 

@@ -2,7 +2,7 @@
 layout: post
 title: shadowsocks-libev在Debian下新编译安装方法
 date: 2016-07-13
-author: Moon
+author: 月杪
 tags: [Shadowsocks]
 description: shadowsocks-libev在Debian下新编译安装方法
 ---

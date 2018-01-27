@@ -2,7 +2,7 @@
 layout: post
 title: Yosemite黑苹果折腾笔记
 date: 2014-10-19
-author: Moon
+author: 月杪
 tags: [Mac]
 description: Yosemite黑苹果折腾笔记
 ---

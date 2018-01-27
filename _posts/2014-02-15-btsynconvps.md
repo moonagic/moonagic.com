@@ -2,7 +2,7 @@
 layout: post
 title: 在vps上使用btsync
 date: 2014-02-15
-author: Moon
+author: 月杪
 tags: [心得]
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: 如何调整Mac系统通知显示时间
 date: 2014-02-15
-author: Moon
+author: 月杪
 tags: [Mac, 心得]
 description: 如何调整Mac系统通知显示时间
 ---

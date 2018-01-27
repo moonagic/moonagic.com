@@ -2,7 +2,7 @@
 layout: post
 title: 一直无法新建 linode 日本,可能是设置出了问题
 date: 2015-04-15
-author: Moon
+author: 月杪
 tags: [Linode]
 description: 一直无法新建 linode 日本,可能是设置出了问题
 ---

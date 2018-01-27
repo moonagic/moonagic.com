@@ -2,7 +2,7 @@
 layout: post
 title: Git忽略证书错误
 date: 2017-08-16
-author: Moon
+author: 月杪
 tags: [Git]
 description: Git忽略证书错误
 ---

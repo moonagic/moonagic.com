@@ -2,7 +2,7 @@
 layout: post
 title: Command line only on linux servers
 date: 2014-10-22
-author: Moon
+author: 月杪
 tags: [Ghost]
 description: Command line only on linux servers
 ---

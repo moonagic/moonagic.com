@@ -2,7 +2,7 @@
 layout: post
 title: 解决pptp下无法打开twimg.com等链接
 date: 2014-10-06
-author: Moon
+author: 月杪
 tags: [pptp]
 description: 解决pptp下无法打开twimg.com等链接
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: iPhone 6 成本只要 1200 元?
 date: 2014-10-12
-author: Moon
+author: 月杪
 tags: [iPhone]
 description: iPhone 6 成本只要 1200 元?
 ---

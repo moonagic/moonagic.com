@@ -2,7 +2,7 @@
 layout: post
 title: 魔兽点卡涨价了
 date: 2014-10-14
-author: Moon
+author: 月杪
 tags: [World of Warcraft]
 description: 魔兽点卡涨价了
 ---

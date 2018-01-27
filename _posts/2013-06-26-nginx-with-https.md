@@ -3,7 +3,7 @@ layout: post
 title:  Nginx配置HTTPS加密
 date:   2013-06-17
 tags:   Nginx, SSL
-author: Moon
+author: 月杪
 ---
 
 ```bash

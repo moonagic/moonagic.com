@@ -2,7 +2,7 @@
 layout: post
 title: 为Linux手动添加swap空间
 date: 2016-07-03
-author: Moon
+author: 月杪
 tags: [Linux]
 description: 为Linux手动添加swap空间
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: How to Uninstall JDK on Mac OS X
 date: 2016-04-29
-author: Moon
+author: 月杪
 tags: [Mac]
 description: How to Uninstall JDK on Mac OS X
 ---

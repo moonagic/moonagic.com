@@ -2,7 +2,7 @@
 layout: post
 title: 从源码编译安装GIt
 date: 2017-05-05
-author: Moon
+author: 月杪
 tags: [Git]
 description: 从源码编译安装GIt
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: 在服务器上创建自己的远程Git仓库
 date: 2017-05-05
-author: Moon
+author: 月杪
 tags: [Git]
 description: 在服务器上创建自己的远程Git仓库
 ---

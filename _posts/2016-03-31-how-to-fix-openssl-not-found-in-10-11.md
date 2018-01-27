@@ -2,7 +2,7 @@
 layout: post
 title: 解决OS X 10.11源码编译的时候找不到openssl的问题
 date: 2016-03-31
-author: Moon
+author: 月杪
 tags: [Mac]
 description: 解决OS X 10.11源码编译的时候找不到openssl的问题
 ---

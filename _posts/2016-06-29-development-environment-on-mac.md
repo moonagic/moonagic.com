@@ -2,7 +2,7 @@
 layout: post
 title: Mac开发环境配置笔记
 date: 2016-06-29
-author: Moon
+author: 月杪
 tags: [Mac]
 description: Mac开发环境配置笔记
 ---

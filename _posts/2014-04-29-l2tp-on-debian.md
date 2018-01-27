@@ -2,7 +2,7 @@
 layout: post
 title: L2TP搭建日志
 date: 2014-04-29
-author: Moon
+author: 月杪
 tags: [l2tp]
 description: L2TP搭建日志
 ---

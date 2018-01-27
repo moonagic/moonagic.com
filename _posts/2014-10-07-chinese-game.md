@@ -2,7 +2,7 @@
 layout: post
 title: 中国手游没有未来
 date: 2014-10-07
-author: Moon
+author: 月杪
 tags: [Game]
 description: 中国手游没有未来
 ---

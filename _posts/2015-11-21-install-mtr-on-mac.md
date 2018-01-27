@@ -2,7 +2,7 @@
 layout: post
 title: Mac安装mtr
 date: 2015-11-21
-author: Moon
+author: 月杪
 tags: [Mac]
 description: Mac安装mtr
 ---

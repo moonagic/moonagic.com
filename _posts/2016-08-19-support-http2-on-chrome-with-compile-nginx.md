@@ -2,7 +2,7 @@
 layout: post
 title: 手动编译Nginx支持ALPN,以在最新版Chrome中支持HTTP/2
 date: 2016-08-19
-author: Moon
+author: 月杪
 tags: [Nginx]
 description: 手动编译Nginx支持ALPN,以在最新版Chrome中支持HTTP/2
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: 在Mac上为Git配置代理
 date: 2016-08-04
-author: Moon
+author: 月杪
 tags: [Proxy, Mac, Git]
 description: 在Mac上为Git配置代理
 ---

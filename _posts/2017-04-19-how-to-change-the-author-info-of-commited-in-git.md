@@ -2,7 +2,7 @@
 layout: post
 title: 修改Git已提交的Email和Name
 date: 2017-04-19
-author: Moon
+author: 月杪
 tags: [Git]
 description: 修改Git已提交的Email和Name
 ---
