@@ -11,7 +11,6 @@ description: 在服务器上创建自己的远程Git仓库
 ###### 创建git用户并设定好密码
 ```bash
 adduser git
-
 ```
 ###### 限制git用户登录
 
