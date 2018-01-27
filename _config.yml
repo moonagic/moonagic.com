@@ -7,7 +7,7 @@ description: Feral CLaw, Cyclone, Heart of Tranquility
 meta_description: 月杪的个人博客
 url: "https://moonagic.com"
 
-logo: /avatar.jpg
+logo: false #/avatar.jpg
 navigation: true
 paginate: 10
 
