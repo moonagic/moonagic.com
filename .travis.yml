@@ -15,5 +15,6 @@ script:
 after_success:
 - rm _site/deploy.sh
 - rm _site/README.md
-- ssh -i ~/.ssh/deploy_ecdsa root@107.167.176.182 "rm -rf /home/jekyll/*"
-- scp -i ~/.ssh/deploy_ecdsa -r _site/* root@107.167.176.182:/home/jekyll
+- ssh -i ~/.ssh/deploy_ecdsa root@107.167.176.182 "mkdir /home/_jekyll/"
+- scp -i ~/.ssh/deploy_ecdsa -r _site/* root@107.167.176.182:/home/_jekyll/
+- ssh -i ~/.ssh/deploy_ecdsa root@107.167.176.182 "mv /home/jekyll/ /home/__jekyll/ && mv /home/_jekyll/ /home/jekyll/"
