@@ -16,4 +16,4 @@ script:
 after_success:
   - rm _site/deploy.sh
   - rm _site/README.md
-  - scp -r _site/* root@107.167.176.182:/home/jekyll2
+  - scp -i deploy_ecdsa -r _site/* root@107.167.176.182:/home/jekyll2
