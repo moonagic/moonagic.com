@@ -7,6 +7,7 @@ before_install:
 - openssl aes-256-cbc -K $encrypted_b64ef2595e9a_key -iv $encrypted_b64ef2595e9a_iv
   -in deploy_ecdsa.enc -out deploy_ecdsa -d
 - chmod 600 deploy_ecdsa
+- echo -e "Host 107.167.176.182\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 
 script:
   - bundle install
