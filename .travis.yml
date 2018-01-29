@@ -4,16 +4,16 @@ rvm:
   - 2.3.3
 
 before_install:
-- openssl aes-256-cbc -K $encrypted_b64ef2595e9a_key -iv $encrypted_b64ef2595e9a_iv
-  -in deploy_ecdsa.enc -out ~/.ssh/deploy_ecdsa -d
+- openssl aes-256-cbc -K $encrypted_b64ef2595e9a_key -iv $encrypted_b64ef2595e9a_iv -in deploy_ecdsa.enc -out ~/.ssh/deploy_ecdsa -d
 - chmod 600 ~/.ssh/deploy_ecdsa
 - echo -e "Host 107.167.176.182\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
-
+- rm deploy_ecdsa.enc
 script:
-  - bundle install
-  - bundle exec jekyll build
+- bundle install
+- bundle exec jekyll build
 
 after_success:
-  - rm _site/deploy.sh
-  - rm _site/README.md
-  - scp -i ~/.ssh/deploy_ecdsa -r _site/* root@107.167.176.182:/home/jekyll2
+- rm _site/deploy.sh
+- rm _site/README.md
+- ssh -i ~/.ssh/deploy_ecdsa root@107.167.176.182 "rm -rf /home/jekyll/*"
+- scp -i ~/.ssh/deploy_ecdsa -r _site/* root@107.167.176.182:/home/jekyll
