@@ -16,6 +16,8 @@ script:
 after_success:
 - rm _site/deploy.sh
 - rm _site/README.md
+- rm _site/Gemfile
+- rm _site/Gemfile.lock
 - ssh -i ~/.ssh/deploy_ecdsa jekyll@107.167.176.182 "mkdir /home/jekyll/_content/"
 - scp -i ~/.ssh/deploy_ecdsa -r _site/* jekyll@107.167.176.182:/home/jekyll/_content/
 - ssh -i ~/.ssh/deploy_ecdsa jekyll@107.167.176.182 "cd /home/jekyll && rm -rf content && mv _content content"
