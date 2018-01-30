@@ -14,7 +14,6 @@ script:
 - bundle exec jekyll build
 
 after_success:
-- rm _site/deploy.sh
 - rm _site/README.md
 - rm _site/Gemfile
 - rm _site/Gemfile.lock
