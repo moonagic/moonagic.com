@@ -35,7 +35,7 @@ after_success:
 
 #### 执行
 在travis启用相应项目并且在添加`.travis.yml`文件提交推送到Github后travis-ci会很快开始运行.
-并且可以看到控制台执行过程,
+并且可以看到类似下图中这样的控制台执行过程,
 ![](/images/2018/01/travis1.png)
 
 #### 成功后的部署
