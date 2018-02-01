@@ -7,7 +7,7 @@ tags: [VPN]
 description: 利用strongSwan搭建IKEv2
 ---
 
-##### 编译安装 strongSwan
+##### 编译安装 strongSwan.使用了5.5.1版本,最新是5.6.1不过不知道为什么无法连接
 ```bash
 wget https://download.strongswan.org/strongswan-5.5.1.tar.gz
 tar zxvf strongswan-5.5.1tar.gz
