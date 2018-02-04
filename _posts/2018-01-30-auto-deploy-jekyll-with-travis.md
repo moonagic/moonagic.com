@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  通过travis自动将jekyll持续部署到服务器上
+title:  通过travis自动将Jekyll持续部署到服务器上
 date:   2018-01-30
 tags:   Jekyll
 author: 月杪
 ---
 
-迁移回Jekyll以后更新博客就成了比较麻烦的事情,jekyll处于本地每次发布就需要在本地生成静态文件以后上传到服务器上.
+迁移回Jekyll以后更新博客就成了比较麻烦的事情,Jekyll处于本地每次发布就需要在本地生成静态文件以后上传到服务器上.
 在很久以前这一系列的工作只能手动完成,不过[travis-ci](https://travis-ci.org)给了我们提供了更方便高效的持续集成解决方案.
 
 #### 首先
@@ -28,7 +28,7 @@ script:
 after_success:
 
 ```
-由于jekyll是ruby环境下的框架所以`language`项填写的`ruby`,
+由于Jekyll是ruby环境下的框架所以`language`项填写的`ruby`,
 `before_install`可以视为正式执行前的准备工作,
 `script`则为正式执行阶段,
 `after_success`为执行成功后的处理.
