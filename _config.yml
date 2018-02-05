@@ -3,14 +3,14 @@
 # TODO: You can change it to your information.
 
 name: 月光林地
-description: Feral Claw, Cyclone, Heart of Tranquility
+description: Keep in simple stupid
 meta_description: 月杪的个人博客
 url: "https://moonagic.com"
 
 logo: /avatar.jpg
 navigation: true
 paginate: 10
-cover: /cover.jpg
+cover: /cover
 
 
 # Less important changes below. (Code-highlighting, markdown)
