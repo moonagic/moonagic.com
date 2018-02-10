@@ -1,5 +1,7 @@
 - page: Home
   url: /
+- page: 我的订阅
+  url: /subscriptions/
 - page: Twitter
   url: totwitter
 - page: Github
