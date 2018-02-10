@@ -42,7 +42,7 @@ Ulysses是专业的写作应用,偶尔客串一下笔记应用也可以.为什�
 $20/y
 ##### 原因
 2013年,Google为了给Google+服务让路于当年7月1日关闭Google Reader.在哀鸿遍野的同时催生了很多独立RSS服务提供商.
-其中Feedly, The Old Reader, inoreader, newsblur等等都属于其中的佼佼者.
+Feedly, The Old Reader, inoreader, newsblur等等都属于其中的佼佼者.
 也催生了很多可以自己部署的开源框架.
 而我选择了Feedbin这样的收费服务,毕竟这种东西稳定是最重要的.同时像Reeder, Unread这种第三方App也支持Feedbin.
 而且去年涨价了,目前新用户年付的话是30美金一年.
