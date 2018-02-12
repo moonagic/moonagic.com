@@ -1,5 +1,7 @@
 - page: Home
   url: /
+- page: 归档
+  url: /archives/
 - page: 我的订阅
   url: /subscriptions/
 - page: Twitter
