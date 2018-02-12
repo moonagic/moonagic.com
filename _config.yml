@@ -40,3 +40,4 @@ defaults:
   values: {layout: author}
 
 
+excerpt_separator: <!--more-->
