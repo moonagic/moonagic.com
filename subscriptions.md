@@ -51,7 +51,7 @@ $20/y
 Feedly, The Old Reader, inoreader, newsblur等等都属于其中的佼佼者.
 也催生了很多可以自己部署的开源框架.
 而我选择了Feedbin这样的收费服务,毕竟这种东西稳定是最重要的.同时像Reeder, Unread这种第三方App也支持Feedbin.
-而且去年涨价了,目前新用户年付的话是30美金一年.
+而且去年涨价了,目前新用户年付的话是50美金或者月付5美金.
 
 ---
 ### Github
