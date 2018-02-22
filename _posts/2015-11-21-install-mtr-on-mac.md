@@ -36,6 +36,12 @@ sudo chmod u+s mtr
 ```
 然后就可以在Mac上愉快的使用mtr了.
 
-##### 更新 
+##### ~~更新(已过期)~~
 目前通过brew安装的mtr使用有很大的问题,需要自己cd到指定目录才可以正常使用.
 通过pkg安装mtr会好很多,pkg地址在[mtr pkg](http://rudix.org/packages/mtr.html).
+
+##### 2018-02-22 更新
+上一次更新使用pkg安装虽然能使用,但是版本太老而且是纯黑的背景如果你控制台并不是纯黑的话会非常难受.
+我卸载了使用pkg安装的mtr,还是选择使用brew源安装.
+和以前不同的是我的安装路径到了`/usr/local/Cellar/mtr/0.92/sbin`.
+我将该目录下的`mtr`以及`mtr-packet`拷贝到`/usr/local/bin`目录下,然后将这两个文件都添加权限就又可以正常使用了.
