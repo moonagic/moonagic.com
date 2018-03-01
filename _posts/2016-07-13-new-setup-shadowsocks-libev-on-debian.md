@@ -38,7 +38,6 @@ git submodule update --init --recursive
 ./configure
 make
 make install
-
 ```
 
 ###### 其他
