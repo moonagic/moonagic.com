@@ -22,9 +22,9 @@ apt-get install libgeoip-dev
 
 ##### ocserv编译安装(目前最新版):
 ```bash
-wget ftp://ftp.infradead.org/pub/ocserv/ocserv-0.11.10.tar.xz
-tar Jxvf ocserv-0.11.10.tar.xz
-cd ocserv-0.11.10
+wget ftp://ftp.infradead.org/pub/ocserv/ocserv-0.11.11.tar.xz
+tar Jxvf ocserv-0.11.11.tar.xz
+cd ocserv-0.11.11
 ./configure --prefix=/usr --sysconfdir=/etc
 make && make install
 ```
