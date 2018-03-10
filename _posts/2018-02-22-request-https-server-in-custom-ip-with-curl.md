@@ -2,7 +2,7 @@
 layout: post
 title: 使用CURL请求HTTPS页面时指定IP
 date: 2018-02-28 13:08 +0800
-tags:   CURL, HTTPS
+tags:   CURL HTTPS
 author: 月杪
 ---
 
