@@ -17,7 +17,18 @@ apt-get update && apt-get upgrade
 ###### 安装必要组件
 ```bash
 # Debian8可能需要添加jessie-backports
-apt-get install --no-install-recommends gettext build-essential autoconf libtool libpcre3-dev asciidoc xmlto libmbedtls-dev libev-dev libudns-dev libc-ares-dev
+apt-get install --no-install-recommends \
+    gettext \
+    build-essential \
+    autoconf \
+    libtool \
+    libpcre3-dev \
+    asciidoc \
+    xmlto \
+    libmbedtls-dev \
+    libev-dev \
+    libudns-dev \
+    libc-ares-dev
 ```
 ###### 编译安装libsodium
 **如果你是使用的Debian9那么你可以安装`libsodium-dev`后跳过这一步**

@@ -25,5 +25,8 @@ systemctl reload nginx
 * Generate Certificate:
 ```bash
 cd /opt/letsencrypt
-./letsencrypt-auto certonly -a webroot --webroot-path=/var/www/html -d example.com -d www.example.com
+./letsencrypt-auto certonly -a webroot \
+    --webroot-path=/var/www/html \
+    -d example.com \
+    -d www.example.com
 ```

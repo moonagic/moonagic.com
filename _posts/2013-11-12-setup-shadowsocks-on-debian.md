@@ -12,7 +12,20 @@ apt-get update && apt-get upgrade
 ```
 2.安装必要组件
 ```bash
-apt-get install --no-install-recommends build-essential autoconf libtool libssl-dev gawk debhelper dh-systemd init-system-helpers pkg-config asciidoc xmlto apg libpcre3-dev
+apt-get install --no-install-recommends \
+    build-essential \
+    autoconf \
+    libtool \
+    libssl-dev \
+    gawk \
+    debhelper \
+    dh-systemd \
+    init-system-helpers \
+    pkg-config \
+    asciidoc \
+    xmlto \
+    apg \
+    libpcre3-dev
 ```
 3.安装git
 ```bash

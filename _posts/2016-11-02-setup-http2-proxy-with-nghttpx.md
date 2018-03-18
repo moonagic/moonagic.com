@@ -10,7 +10,26 @@ description: 利用nghttpx 搭建HTTP/2代理
 利用nghttpx 搭建HTTP/2代理,配合了Squid.Squid相关配置可以参考[在Debian上搭建适用于Surge的HTTPS代理](https://moonagic.com/setup-https-proxy-on-debian/)
 ##### 先安装必要的依赖
 ```bash
-apt-get install g++ make binutils autoconf automake autotools-dev libtool pkg-config zlib1g-dev libcunit1-dev libssl-dev libxml2-dev libev-dev libevent-dev libjansson-dev libjemalloc-dev cython python3-dev python-setuptools
+apt-get install \
+    g++ \
+    make \
+    binutils \
+    autoconf \
+    automake \
+    autotools-dev \
+    libtool \
+    pkg-config \
+    zlib1g-dev \
+    libcunit1-dev \
+    libssl-dev \
+    libxml2-dev \
+    libev-dev \
+    libevent-dev \
+    libjansson-dev \
+    libjemalloc-dev \
+    cython \
+    python3-dev \
+    python-setuptools
 ```
 ##### 源码编译nghttpx,并将文件拷贝到对应目录
 ```bash
