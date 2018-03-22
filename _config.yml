@@ -16,10 +16,12 @@ cover: /cover
 # Less important changes below. (Code-highlighting, markdown)
 
 highlighter: rouge
-markdown: kramdown
+markdown: Redcarpet
 permalink: /:title/
 
-
+# redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "strikethrough", "superscript", "with_toc_data", "footnotes","space_after_headers","highlight","underline","quote","lax_spacing"]
 # Feed!
 
 feed:
