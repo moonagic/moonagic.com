@@ -28,7 +28,7 @@ feed:
 
 # However, pagination is important.
 
-gems: [jekyll-paginate, rouge]
+gems: [jekyll-paginate, rouge, jekyll-sitemap]
 
 
 # This is for author page generation.
