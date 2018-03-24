@@ -30,8 +30,11 @@ feed:
 
 # However, pagination is important.
 
-gems: [jekyll-paginate, rouge, jekyll-sitemap]
+gems: [jekyll-paginate, rouge, jekyll-sitemap, jekyll-mermaid]
 
+# mermaid
+mermaid:
+  src: '/assets/js/mermaid.min.js'
 
 # This is for author page generation.
 
