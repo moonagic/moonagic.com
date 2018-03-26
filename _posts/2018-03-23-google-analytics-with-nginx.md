@@ -10,6 +10,7 @@ author: 月杪
 在Nginx端配置Google-Analytics和在HTML中加载Google-Analytics有几个显著的有点,
 1. 杜绝用户到Google Analytics之间的网络问题,特别是国内(尽管已经解析到Google在北京的服务器)
 2. 防止adblock这样的软件屏蔽
+3. 提升页面加载速度
 
 #### 配置方法
 nginx 配置 server 块内加入以下内容
