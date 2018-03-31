@@ -4,6 +4,8 @@
   url: /archives/
 - page: 我的订阅
   url: /subscriptions/
+- page: 公共DNS
+  url: /dns/
 - page: Twitter
   url: totwitter
 - page: Github
