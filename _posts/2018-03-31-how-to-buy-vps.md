@@ -2,7 +2,7 @@
 layout: post
 title: 如何选购VPS
 date: 2018-03-31 21:20 +0800
-tags:   Other
+tags:   VPS
 author: 月杪
 ---
 
