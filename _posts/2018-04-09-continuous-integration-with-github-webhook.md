@@ -69,6 +69,8 @@ handler.on('push', function (event) {
 Webhook的原理就是当GitHub项目有需要监听的Event的时候向Webhook配置的地址发送请求,在Webhook响应服务上接收到请求后执行已经配置好的动作.
 > 其实完全可以使用C/C++,Golang,java等语言写一个.不过对于这种几乎没有任何性能要求的服务nodejs确实优势太大了.
 
+[示例代码](https://github.com/moonagic/WebhookExample/tree/master)
+
 ##### GitHub Webhook配置
 在需要配置Webhook的GitHub项目的Settings-Webhooks,如图:
 ![](https://pic.moonagic.com/images/2018/04/webhook0.png)
