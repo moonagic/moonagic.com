@@ -13,6 +13,14 @@ author: 月杪
 Github开发者平台的文档中对Webhook的所能做的事是这样描述的：
 > You’re only limited by your imagination.
 
+Github Webhook和以前写过的[通过travis自动将Jekyll持续部署到服务器上](https://moonagic.com/auto-deploy-jekyll-with-travis/)相比:
+* 不需要暴露(经过travis加密的)服务器私钥
+* 不需要通过travis的虚拟机中转(那玩意儿的带宽实在是....)
+
+当然和travis相比也有缺点:
+* 需要有一台属于自己的外网服务器
+* 自己的Webhook响应服务.
+
 ---
 
 ### 开始
