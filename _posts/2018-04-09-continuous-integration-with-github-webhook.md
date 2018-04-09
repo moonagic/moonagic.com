@@ -77,5 +77,5 @@ Webhook的原理就是当GitHub项目有需要监听的Event的时候向Webhook�
 在GitHub上进行了上一步配置有的Event后GitHub自动发送的请求会显示在Webhooks页面,如图:
 ![](https://pic.moonagic.com/images/2018/04/webhook1.png)
 
-图中三项都为请求成功.  
+图中前五次都为请求成功,而最新一次请求失败了.  
 然后当Webhook支持服务中的动作完成后本次集成工作就结束了.
