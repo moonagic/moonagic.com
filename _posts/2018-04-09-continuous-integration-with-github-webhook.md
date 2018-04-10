@@ -84,7 +84,7 @@ Webhook的原理就是当GitHub项目有需要监听的Event的时候向Webhook�
 
 ### 更新
 示例代码使用到了第三方库[rvagg/github-webhook-handler](https://github.com/rvagg/github-webhook-handler).  
-今天自己用不使用第三方库的方式写了一个:
+今天自己用脱离第三方库的方式写了一个:
 ```JavaScript
 var http = require('http');
 var crypto = require('crypto')
