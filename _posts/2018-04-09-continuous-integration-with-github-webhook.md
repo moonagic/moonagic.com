@@ -115,7 +115,7 @@ http.createServer(function(request, response) {
     }
 
 
-}).listen(6606, '127.0.0.1');
+}).listen(6606, '127.0.0.1'); // 对,服务监听的是内网地址.用Nginx反代一下就好.(当然直接丢到外网也没问题)
 
 function sign(secret, data) {
     return 'sha1=' + crypto.createHmac('sha1', secret).update(data).digest('hex');
