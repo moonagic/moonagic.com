@@ -81,3 +81,62 @@ Webhook的原理就是当GitHub项目有需要监听的Event的时候向Webhook�
 
 图中前五次都为请求成功,而最新一次请求失败了.  
 然后当Webhook支持服务中的动作完成后本次集成工作就结束了.
+
+### 更新
+示例代码使用到了第三方库[rvagg/github-webhook-handler](https://github.com/rvagg/github-webhook-handler).  
+今天自己用不使用第三方库的方式写了一个:
+```JavaScript
+var http = require('http');
+var crypto = require('crypto')
+var exec = require('child_process').exec;
+
+// 在Webhooks中设定的secret
+var secret = ''
+// 在Webhooks中设定的Payload URL
+var url = ''
+
+http.createServer(function(request, response) {
+    response.writeHead(200, {'Content-Type':'application/json'});
+    response.end();
+
+    if (request.headers['x-github-event'] && request.headers['x-github-event'] === 'push') {
+        console.log('push');
+
+        request.on('data', function(chunk) {
+            var Signature = request.headers['x-hub-signature'];
+            //console.log(chunk.toString()); chunk中存储了payload的数据,如果需要可以拿出来做更精确的处理.比如部署触发该次push的commit的代码
+            if (verifySecret(Signature, sign(secret, chunk.toString())) && verifyUrl(url, request.url)) {
+                console.log('verify');
+                runCommand();
+            } else {
+                console.log('verify faild');
+            }
+        });
+    }
+
+
+}).listen(6606, '127.0.0.1');
+
+function sign(secret, data) {
+    return 'sha1=' + crypto.createHmac('sha1', secret).update(data).digest('hex');
+}
+
+function verifySecret(data0, data1) {
+    return (data0 == data1);
+}
+
+function verifyUrl(data0, data1) {
+    return (data0 == data1);
+}
+
+function runCommand() {
+    exec("./auto_build.sh", function(err,stdout,stderr){
+        if(err) {
+            console.log('error:'+stderr);
+        } else {
+            console.log("stdout:"+stdout);
+        }
+    });
+}
+```
+[示例代码](https://github.com/moonagic/WebhookExample/blob/master/index2.js)
