@@ -83,7 +83,7 @@ Webhook的原理就是当GitHub项目有需要监听的Event的时候向Webhook�
 然后当Webhook支持服务中的动作完成后本次集成工作就结束了.
 
 ### 更新
-示例代码使用到了第三方库[rvagg/github-webhook-handler](https://github.com/rvagg/github-webhook-handler).  
+示例代码使用到了第三方库[rvagg/github-webhook-handler](https://github.com/rvagg/github-webhook-handler).而且真正当服务跑起来以后发现有死掉的情况.  
 今天自己用脱离第三方库的方式写了一个:
 ```JavaScript
 var http = require('http');
