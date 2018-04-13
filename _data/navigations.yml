@@ -2,6 +2,8 @@
   url: /
 - page: 归档
   url: /archives/
+- page: 标签
+  url: /tags/
 - page: 我的订阅
   url: /subscriptions/
 - page: 公共DNS
