@@ -14,19 +14,19 @@ apt-get install build-essential libpcre3 libpcre3-dev zlib1g-dev
 ###### 下载需要的源代码
 ```bash
 # Openssl版本需要1.0.2才能支持ALPN,而后者是新版Chrome支持HTTP/2的必要条件
-wget -O openssl.zip -c https://github.com/openssl/openssl/archive/OpenSSL_1_1_0f.zip
+wget -O openssl.zip -c https://github.com/openssl/openssl/archive/OpenSSL_1_1_0h.zip
 unzip openssl.zip
-mv openssl-OpenSSL_1_1_0f/ openssl
+mv openssl-OpenSSL_1_1_0h/ openssl
 
 wget -O nginx-ct.zip -c https://github.com/grahamedgecombe/nginx-ct/archive/v1.3.2.zip
 unzip nginx-ct.zip
 
 # 获取Nginx源码
-wget -c https://nginx.org/download/nginx-1.13.9.tar.gz
-tar zxf nginx-1.13.9.tar.gz
+wget -c https://nginx.org/download/nginx-1.14.0.tar.gz
+tar zxf nginx-1.14.0.tar.gz
 
 # 编译
-cd nginx-1.13.9/
+cd nginx-1.14.0/
 # 编译参数参考了官方源的Nginx
 ./configure \
  --prefix=/etc/nginx \
