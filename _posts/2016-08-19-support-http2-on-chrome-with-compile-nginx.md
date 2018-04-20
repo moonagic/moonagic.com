@@ -86,7 +86,7 @@ apt-get install libxml2 libxslt1-dev
 ./configure: error: the GeoIP module requires the GeoIP library.  
 You can either do not enable the module or install the library.  
 # 解决办法
-apt-get install libgeoip-dev 
+apt-get install libgeoip-dev
 ```
 
 ###### 启动脚本
