@@ -26,7 +26,6 @@ int operator ++ (int flag)
     i += 1;
     return j;
 }
-
 ```
 两者实现的本质区别为其中的`j`,这个`j`在程序中称为匿名变量.  
 现在很明显了,因为这个匿名变量的存在直接导致了i++比++i实际开销大.  
@@ -104,7 +103,6 @@ L_.str:                                 ## @.str
 
 
 .subsections_via_symbols
-
 ```
 所以,现在只能作两个猜测:
 * 编译器层面对for循环中的迭代操作做了针对优化
@@ -195,7 +193,6 @@ L_.str:                                 ## @.str
 
 
 .subsections_via_symbols
-
 ```
 ```c
 	.section	__TEXT,__text,regular,pure_instructions
@@ -238,7 +235,6 @@ L_.str:                                 ## @.str
 
 
 .subsections_via_symbols
-
 ```
 
 i++相比++i多出一行
