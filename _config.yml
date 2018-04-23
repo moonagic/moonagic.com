@@ -7,10 +7,10 @@ description: 想要遇见以前的自己跟他说几句话
 meta_description: 月杪的个人博客
 url: "https://moonagic.com"
 
-logo: /avatar.jpg
+logo: /images/avatar.jpg
 navigation: true
 paginate: 10
-cover: /cover
+cover: /images/cover.jpg
 
 
 # Less important changes below. (Code-highlighting, markdown)

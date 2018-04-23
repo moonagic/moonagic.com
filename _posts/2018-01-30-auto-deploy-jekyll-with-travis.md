@@ -11,7 +11,7 @@ author: 月杪
 
 #### 首先
 我们到[travis-ci](https://travis-ci.org)使用Github帐号登录,授权完成后进入[个人页面](https://travis-ci.org/profile)开启你需要进行持续集成的项目,就像下图中
-![](https://pic.moonagic.com/images/2018/01/travis0.png)
+![](/images/2018/01/travis0.png)
 
 #### 添加.travis.yml文件
 在项目中新建`.travis.yml`,
@@ -36,7 +36,7 @@ after_success:
 #### 执行
 在travis启用相应项目并且在添加`.travis.yml`文件提交推送到Github后travis-ci会很快开始运行.
 并且可以看到类似下图中这样的控制台执行过程,
-![](https://pic.moonagic.com/images/2018/01/travis1.png)
+![](/images/2018/01/travis1.png)
 
 #### 成功后的部署
 执行成功后可以通过ssh以及scp将生成好的静态文件部署到服务器上.不过不管是直接在`.travis.yml`中写服务器密码还是上传私钥都相当危险.
@@ -67,4 +67,4 @@ after_success:
 Done. Your build exited with 0.
 ```
 其实你不需要关注执行终端的信息,只需要隔一段时间检查以下Github提交页就可以了.提交页会清楚的告诉你哪些提交触发了持续部署,以及所有任务的执行状态.就像下图:
-![](https://pic.moonagic.com/images/2018/01/travis2.png)
+![](/images/2018/01/travis2.png)

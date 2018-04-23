@@ -52,9 +52,9 @@ guetzli [--quality Q] [--verbose] original.jpg output.jpg
 压缩一张尺寸为1200x900文件大小为337kb的图片为例,默认压缩后图片大小254k.同时前后2张图片肉眼感官上基本无差别.
 
 * 压缩前
-![](https://pic.moonagic.com/images/2018/03/general_jpg.jpg)
+![](/images/2018/03/general_jpg.jpg)
 * 压缩后
-![](https://pic.moonagic.com/images/2018/03/jpg_with_guetzli.jpg)
+![](/images/2018/03/jpg_with_guetzli.jpg)
 
 #### 和其他图片对比
 | 图片类型  | 图片大小   | 兼容性   |备注   |
