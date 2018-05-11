@@ -9,7 +9,6 @@ description: 在Mac上为Git配置代理
 
 Mac上为iTerm2设置代理可以直接用
 ```bash
-
 export http_proxy=http://127.0.0.1:6152/
 export https_proxy=http://127.0.0.1:6152/
 ```
