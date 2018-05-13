@@ -13,8 +13,9 @@ export http_proxy=http://127.0.0.1:6152/
 export https_proxy=http://127.0.0.1:6152/
 ```
 但是对git并不那么奏效,因为git除了走https外还需要走ssh.
-试了网上很多办法都不行,最后找到了这个办法:
-先将[connect](https://bitbucket.org/gotoh/connect)(我自己clone到了[github](https://github.com/moonagic/connect))克隆到本地
+试了网上很多办法都不行,最后找到了这个办法:  
+~先将[connect](https://bitbucket.org/gotoh/connect)(我自己clone到了[github](https://github.com/moonagic/connect))克隆到本地~  
+::bitbucket上的版本需要做出一项改动才能在Mac上正确编译使用,还是直接使用GitHub上已经修改好的仓库吧::
 ```bash
 git clone https://github.com/moonagic/connect.git
 cd connect
