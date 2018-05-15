@@ -18,15 +18,15 @@ apt-get install libprotobuf-c-dev libhttp-parser-dev gnutls-bin
 apt-get install -t jessie-backports libgeoip-dev
 # 如果为Debian9则直接
 apt-get install libgeoip-dev
-# ocserv 0.12.0开始需要添加一个新的依赖,不然预编译的时候会出警告告诉你worker进程无法独立运行.而如果忽略该警告的话安装后无法使用Anyconnect连接
+# ocserv 0.12.0开始需要添加一个新的依赖(该依赖在0.12.0以前为可选),不然预编译的时候会出警告告诉你worker进程无法独立运行.而如果忽略该警告的话安装后无法使用Anyconnect连接
 apt-get install libseccomp-dev
 ```
 
 ##### ocserv编译安装(目前最新版):
 ```bash
-wget ftp://ftp.infradead.org/pub/ocserv/ocserv-0.12.0.tar.xz
-tar Jxvf ocserv-0.12.0.tar.xz
-cd ocserv-0.12.0
+wget ftp://ftp.infradead.org/pub/ocserv/ocserv-0.12.1.tar.xz
+tar Jxvf ocserv-0.12.1.tar.xz
+cd ocserv-0.12.1
 ./configure --prefix=/usr --sysconfdir=/etc
 make && make install
 ```
