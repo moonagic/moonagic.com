@@ -31,7 +31,7 @@ apt-get install --no-install-recommends \
     libc-ares-dev
 ```
 ###### 编译安装libsodium
-**如果你是使用的Debian9那么你可以安装`libsodium-dev`后跳过这一步**
+==**如果你是使用的Debian9那么你可以安装`libsodium-dev`后跳过这一步**==
 ```bash
 git clone https://github.com/jedisct1/libsodium.git
 cd libsodium
