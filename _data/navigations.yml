@@ -7,7 +7,7 @@
 - page: 公共DNS
   url: /dns/
 - page: RSSHub
-  url: /rsshub/
+  url: torsshub
 - page: Twitter
   url: totwitter
 - page: Github
