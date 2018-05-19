@@ -60,7 +60,7 @@
     </div>
 
     {%comment%} jQuery needs to come before `{{ghost_foot}}` so that jQuery can be used in code injection {%endcomment%}
-    <script type="text/javascript" src="//moonagic.com/jquery"></script>
+    <script type="text/javascript" src="{{"/assets/js/jquery-1.12.0.min.js" | relative_url }}"></script>
     {%comment%} Ghost outputs important scripts and data with this tag {%endcomment%}
     {%include foot.html%}
     {%comment%} Fitvids makes video embeds responsive and awesome {%endcomment%}
