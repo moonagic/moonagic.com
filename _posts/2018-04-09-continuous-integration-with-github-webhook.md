@@ -8,6 +8,7 @@ author: 月杪
 
 > [Webhook](https://developer.github.com/webhooks/),也就是人们常说的钩子,是一个很有用的工具.你可以通过定制Webhook来监测你在Github.com上的各种事件,最常见的莫过于push事件.如果你设置了一个监测push事件的Webhook,那么每当你的这个项目有了任何提交,这个Webhook都会被触发,这时Github就会发送一个POST请求到你配置好的地址.
 
+<!--more-->
 这样你就可以通过这种方式去自动完成一些重复性工作.比如:你可以用Webhook来自动触发一些持续集成(CI)工具的运作.
 
 Github开发者平台的文档中对Webhook的所能做的事是这样描述的：
