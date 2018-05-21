@@ -30,7 +30,7 @@ feed:
 
 # However, pagination is important.
 
-gems: [jekyll-paginate, rouge, jekyll-sitemap, jekyll-mermaid]
+plugins: [jekyll-paginate, rouge, jekyll-sitemap, jekyll-mermaid]
 
 # mermaid
 mermaid:
