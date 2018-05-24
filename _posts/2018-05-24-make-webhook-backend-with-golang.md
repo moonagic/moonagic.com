@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 用Golang写了一个Github webhook后台服务
+title: 用Golang重新写了一个Github webhook后台服务
 date: 2018-05-24 12:46 +0800
 tags:   Github
 author: 月杪
