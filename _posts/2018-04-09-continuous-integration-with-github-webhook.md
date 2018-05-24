@@ -91,9 +91,9 @@ var http = require('http');
 var crypto = require('crypto')
 var exec = require('child_process').exec;
 
-// 在Webhooks中设定的secret
+// 在Webhook中设定的secret
 var secret = ''
-// 在Webhooks中设定的Payload URL
+// 在Webhook中设定的Payload URL
 var url = ''
 
 http.createServer(function(request, response) {
@@ -145,6 +145,6 @@ function runCommand() {
 ### 继续更新
 后来发现这个服务实在太简陋,无法处理连续的push而且是否执行成功也只能靠进入发布目录看文件创建时间.  
 简单修改了一个可以处理连续push[^push]并且记录日志的版本.  
-[示例代码](https://github.com/moonagic/webhooks)
+[示例代码](https://github.com/moonagic/webhook)
 
 [^push]: 博客项目只需要关注最新提交,所以只记录了队列中是否有新任务,而且并没有按照对应commit处理的功能.
