@@ -16,4 +16,4 @@ author: 月杪
 于是决定用go来重新实现这个工具,基本是完全复刻旧的nodejs项目然后添加了配置文件功能.  
 [GoWebhook](https://github.com/moonagic/GoWebhook)
 
-服务重新跑起来了,内存占用大概只有nodejs项目的8/1到10/1.
+服务重新跑起来了,内存占用大概只有nodejs项目的八分之一到十分之一.
