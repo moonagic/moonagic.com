@@ -1,10 +1,10 @@
 ---
 layout: post
-title: 利用strongSwan搭建IKEv2
+title: 使用strongSwan搭建IKEv2
 date: 2016-11-26
 author: 月杪
 tags: [VPN]
-description: 利用strongSwan搭建IKEv2
+description: 使用strongSwan搭建IKEv2
 ---
 
 ##### 编译安装 strongSwan.使用了5.5.1版本,最新是5.6.1不过不知道为什么无法连接
