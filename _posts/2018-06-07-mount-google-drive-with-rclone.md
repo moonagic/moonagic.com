@@ -17,7 +17,7 @@ apt-get install fuse
 ```zsh
 wget https://downloads.rclone.org/v1.41/rclone-v1.41-linux-amd64.zip
 ```
-截止目前最新版为1.41,在https://downloads.rclone.org/可以看到历史版本.  
+截止目前最新版为1.41,在 https://downloads.rclone.org/ 可以看到历史版本.  
 下载解压后里面的可执行文件`rclone`就是我们需要的,可以直接在当前目录使用也可以将其拷贝到`/usr/local/bin`.  
 
 #### 配置
