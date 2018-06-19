@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 给动态IP的服务器部署DDNS
+title: Stop DHCP From Changing resolv.conf
 date: 2018-06-19 16:19 +0800
 tags:   Linux VPS DNS
 author: 月杪
