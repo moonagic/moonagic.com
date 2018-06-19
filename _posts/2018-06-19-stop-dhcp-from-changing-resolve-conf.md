@@ -16,7 +16,7 @@ This tutorial shows three methods to stop DHCP from changing the /etc/resolv.con
 
 First, we need to get the IP/netmask/gateway of the server. Run the following command.
 
-```
+```zsh
 ifconfig | grep "inet addr" | head -n 1 | awk '{print $2, $4}'
 addr:1.2.3.4 Mask:255.255.254.0
 ```
@@ -25,7 +25,7 @@ addr:1.2.3.4 Mask:255.255.254.0
 
 To get the gateway address, run the following command.
 
-```
+```zsh
 netstat -rn | grep '^0.0.0.0' | awk '{print $2}'
 ```
 
@@ -33,11 +33,11 @@ In this example, I will use the gateway address 1.2.3.1.
 
 Now that we have the **IP/netmask/gateway**, edit `/etc/network/interfaces`.
 
-```
+```zsh
  vim /etc/network/interfaces
 ```
 Make the following edits:
-```
+```zsh
 # Comment out this line
 # iface eth0 inet dhcp
 
@@ -55,7 +55,7 @@ Save and exit, then reboot.
 #### Method 2: Write protect your nameservers
 Change your nameservers by editing `/etc/resolv.conf`. Once you have made your edits, write protect that file.
 
-```shell
+```zsh
 chattr +i /etc/resolv.conf
 ```
 
@@ -63,7 +63,7 @@ The `+i` option (attribute) write protects the `/etc/resolv.conf` file on Linux 
 
 If you need to remove the write protect attribute, use the following command.
 
-```shell
+```zsh
 chattr -i /etc/resolv.conf
 ```
 
@@ -72,13 +72,13 @@ This is the method that I recommend using the most.
 
 Edit `/etc/dhcp/dhclient-enter-hooks.d/nodnsupdate`.
 
-```shell
+```zsh
 vim /etc/dhcp/dhclient-enter-hooks.d/nodnsupdate
 ```
 
 Make the following edits:
 
-```shell
+```zsh
 #!/bin/sh
 make_resolv_conf(){
     :
@@ -89,7 +89,7 @@ Save and exit.
 
 Update the permissions on the `nodnsupdate` file.
 
-```shell
+```zsh
 chmod +x /etc/dhcp/dhclient-enter-hooks.d/nodnsupdate
 ```
 
