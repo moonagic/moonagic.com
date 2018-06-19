@@ -26,7 +26,7 @@ addr:1.2.3.4 Mask:255.255.254.0
 To get the gateway address, run the following command.
 
 ```
- netstat -rn | grep '^0.0.0.0' | awk '{print $2}'
+netstat -rn | grep '^0.0.0.0' | awk '{print $2}'
 ```
 
 In this example, I will use the gateway address 1.2.3.1.
