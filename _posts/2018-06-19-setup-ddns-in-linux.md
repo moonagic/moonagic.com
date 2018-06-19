@@ -18,11 +18,6 @@ First, we need to get the IP/netmask/gateway of the server. Run the following co
 
 ```
 ifconfig | grep "inet addr" | head -n 1 | awk '{print $2, $4}'
-```
-
-This provides the server IP and netmask. Looking at the example output...
-
-```
 addr:1.2.3.4 Mask:255.255.254.0
 ```
 
