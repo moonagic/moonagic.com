@@ -55,7 +55,7 @@ Save and exit, then reboot.
 #### Method 2: Write protect your nameservers
 Change your nameservers by editing `/etc/resolv.conf`. Once you have made your edits, write protect that file.
 
-```
+```shell
 chattr +i /etc/resolv.conf
 ```
 
@@ -63,7 +63,7 @@ The `+i` option (attribute) write protects the `/etc/resolv.conf` file on Linux 
 
 If you need to remove the write protect attribute, use the following command.
 
-```
+```shell
 chattr -i /etc/resolv.conf
 ```
 
@@ -72,13 +72,13 @@ This is the method that I recommend using the most.
 
 Edit `/etc/dhcp/dhclient-enter-hooks.d/nodnsupdate`.
 
-```
+```shell
 vim /etc/dhcp/dhclient-enter-hooks.d/nodnsupdate
 ```
 
 Make the following edits:
 
-```
+```shell
 #!/bin/sh
 make_resolv_conf(){
     :
@@ -89,7 +89,7 @@ Save and exit.
 
 Update the permissions on the `nodnsupdate` file.
 
-```
+```shell
 chmod +x /etc/dhcp/dhclient-enter-hooks.d/nodnsupdate
 ```
 
