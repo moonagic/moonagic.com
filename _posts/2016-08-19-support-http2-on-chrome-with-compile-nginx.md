@@ -22,8 +22,8 @@ wget -O nginx-ct.zip -c https://github.com/grahamedgecombe/nginx-ct/archive/v1.3
 unzip nginx-ct.zip
 
 # 获取Nginx源码
-wget -c https://nginx.org/download/nginx-1.15.0.tar.gz
-tar zxf nginx-1.15.0.tar.gz
+wget -c https://nginx.org/download/nginx-1.15.1.tar.gz
+tar zxf nginx-1.15.1.tar.gz
 
 # 编译
 cd nginx-1.15.0/
