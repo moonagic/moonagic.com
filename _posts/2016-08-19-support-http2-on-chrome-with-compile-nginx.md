@@ -175,3 +175,22 @@ nginx: [emerg] getpwnam("nginx") failed
 nginx: [emerg] mkdir() "/var/cache/nginx/client_temp" failed (2: No such file or directory)
 ```
 需要手动创建目录`/var/cache/nginx/`
+
+###### 补充2
+添加ngx_brotli支持
+```bash
+apt-get install autoconf libtool automake
+git clone https://github.com/bagder/libbrotli
+cd libbrotli
+
+# 如果提示 error: C source seen but 'CC' is undefined，可以在 configure.ac 最后加上 AC_PROG_CC
+./autogen.sh
+./configure
+make
+make install
+```
+```bash
+git clone https://github.com/google/ngx_brotli.git
+cd ngx_brotli
+git submodule update --init
+```
