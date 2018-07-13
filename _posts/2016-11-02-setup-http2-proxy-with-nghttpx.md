@@ -63,10 +63,16 @@ certificate-file=path/to/your/cert
 http2-proxy=yes
 
 workers=4
+# 不添加 X-Forwarded-For 头
 add-x-forwarded-for=no
+# 不添加 Via 头
 no-via=yes
+# 不查询 OCSP
 no-ocsp=yes
-tls-proto-list=TLSv1.2
+# NPN / ALPN 优先使用 h2
+#npn-list=h2
+tls-min-proto-version=TLSv1.2
+tls-max-proto-version=TLSv1.2
 ciphers=ECDHE+AES128
 ```
 ##### 重启nghttpx
