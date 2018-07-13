@@ -18,8 +18,8 @@ apt-get install squid3 stunnel4
 
 ## 添加http认证文件
 ```bash
-sh -c "echo -n '[帐号]:' >> /etc/squid3/squid.passwd"
-sh -c "openssl passwd -apr1 >> /etc/squid3/squid.passwd"
+sh -c "echo -n '[帐号]:' >> /etc/squid/squid.passwd"
+sh -c "openssl passwd -apr1 >> /etc/squid/squid.passwd"
 // 后面会提示设定密码
 ```
 
@@ -37,7 +37,7 @@ http_port 127.0.0.1:3128
 ### 修改访问权限与HTTP认证
 在`TAG: auth_param`下方添加
 ```bash
-auth_param basic program /usr/lib/squid3/basic_ncsa_auth /etc/squid3/squid.passwd
+auth_param basic program /usr/lib/squid/basic_ncsa_auth /etc/squid/squid.passwd
 auth_param basic children 5
 auth_param basic realm Squid proxy-caching web server
 auth_param basic credentialsttl 2 hours
