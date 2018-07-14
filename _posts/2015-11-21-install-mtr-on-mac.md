@@ -45,3 +45,6 @@ sudo chmod u+s mtr
 我卸载了使用pkg安装的mtr,还是选择使用brew源安装.
 和以前不同的是我的安装路径到了`/usr/local/Cellar/mtr/0.92/sbin`.
 我将该目录下的`mtr`以及`mtr-packet`拷贝到`/usr/local/bin`目录下,然后将这两个文件都添加权限就又可以正常使用了.
+
+##### 2018-07-14 更新
+最新版不支持上面的操作了,老老实实加sudu吧.
