@@ -2,7 +2,7 @@
 layout: post
 title: 用Nginx和rclone做Google Drive下载页
 date: 2018-08-06 19:33 +0800
-tags:   Linux SSL
+tags:   Linux
 author: 月杪
 ---
 
