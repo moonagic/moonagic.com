@@ -326,6 +326,9 @@ blockquote {
 blockquote p {
     margin: 0.8em 0;
     font-style: italic;
+    color: #444444;
+    background: #fafafa;
+    border-radius: 8px;
 }
 
 blockquote small {
