@@ -27,9 +27,15 @@
    ========================================================================== */
 
 html {
-    font-family: 'PingFang SC', 'Source Code Pro';
+    font-family: 'PingFang SC', 'Source Code Pro', 'PT Serif',Georgia,Times,'Microsoft YaHei',sans-serif;
     -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%
+    -webkit-text-size-adjust: 100%;
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
+    -webkit-font-smoothing: antialiased !important;
+    text-shadow: 0 0 1px rgba(0,0,0,0.22);
+    color: #FFF;
 }
 body { margin: 0; }
 article, aside, details,
@@ -64,7 +70,7 @@ svg:not(:root) { overflow: hidden; }
 figure { margin: 1em 40px; }
 hr { box-sizing: content-box; height: 0; }
 pre { overflow: auto; }
-code, kbd, pre, samp { font-family: 'Operator Mono Light', 'Source Code Pro', monospace, monospace; font-size: 1em; }
+code, kbd, pre, samp { font-family: 'Operator Mono Light', 'Source Code Pro', monospace, monospace; font-size: 0.9em; }
 button, input, optgroup, select, textarea {
     color: inherit;
     font: inherit;
@@ -177,7 +183,7 @@ td, th{ padding: 0; }
 html {
     height: 100%;
     max-height: 100%;
-    font-size: 62.5%;
+    font-size: 56%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
