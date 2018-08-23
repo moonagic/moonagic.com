@@ -250,7 +250,8 @@ h6 {
 }
 
 a {
-    color: #4A4A4A;
+    /*color: #4A4A4A;*/
+    color: #00b4ff;
     transition: color 0.3s ease;
 }
 
