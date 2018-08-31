@@ -27,9 +27,15 @@
    ========================================================================== */
 
 html {
-    font-family: sans-serif;
+    font-family: 'PingFang SC', 'Source Code Pro', 'PT Serif',Georgia,Times,'Microsoft YaHei',sans-serif;
     -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%
+    -webkit-text-size-adjust: 100%;
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
+    -webkit-font-smoothing: antialiased !important;
+    text-shadow: 0 0 1px rgba(0,0,0,0.22);
+    color: #FFF;
 }
 body { margin: 0; }
 article, aside, details,
@@ -64,7 +70,7 @@ svg:not(:root) { overflow: hidden; }
 figure { margin: 1em 40px; }
 hr { box-sizing: content-box; height: 0; }
 pre { overflow: auto; }
-code, kbd, pre, samp { font-family: monospace, monospace; font-size: 1em; }
+code, kbd, pre, samp { font-family: 'Operator Mono Light', 'Source Code Pro', monospace; font-size: 0.9em; }
 button, input, optgroup, select, textarea {
     color: inherit;
     font: inherit;
@@ -186,7 +192,7 @@ body {
     max-height: 100%;
     font-family: "Merriweather", serif;
     letter-spacing: 0.01rem;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     line-height: 1.75em;
     color: #3A4145;
     -webkit-font-feature-settings: 'kern' 1;
@@ -244,7 +250,7 @@ h6 {
 }
 
 a {
-    color: #4A4A4A;
+    color: #00B4FF;
     transition: color 0.3s ease;
 }
 
@@ -995,7 +1001,7 @@ body.nav-opened .nav {
 .post {
     position: relative;
     width: 80%;
-    max-width: 1120px;
+    max-width: 1080px;
     margin: 4rem auto;
     padding-bottom: 4rem;
     border-bottom: #EBF2F6 1px solid;
@@ -1028,6 +1034,7 @@ body.page-template .post-title {
 }
 
 .post-title a {
+    color: #4A4A4A;
     text-decoration: none;
 }
 

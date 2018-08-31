@@ -7,14 +7,17 @@ paginate: 5
 language: 'en-us'
 
 # Website info
-name: 'Finding The Way Home'
-description: "A beautiful narrative written with the world's most elegant publishing platform. The story begins here."
+name: "月光林地"
+description: "Do one thing, and do it well."
+meta_description: 月杪的个人博客
+meta_keywords: moonagic, 月杪, 月光林地, jekyll, blog, 博客, 独立博客, github
+url: "https://moonagic.com"
 
-short_url: 'jekyller.github.io/jasper/'
+short_url: 'moonagic.com'
 # google_analytics: UA-69281367-1
 # disqus: username
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: 
+baseurl: '/'
 
 host: 0.0.0.0
 port: 4000
