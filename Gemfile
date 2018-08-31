@@ -1,5 +1,9 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 3.6.2"
-gem "github-pages", "~> 168"
-gem "rake", "~> 12.3.0"
+gem "jekyll"
+gem "github-pages"
+gem "rake"
+gem "jekyll-sitemap"
+gem "jekyll-mermaid"
+gem "rouge"
+gem "jekyll-paginate"

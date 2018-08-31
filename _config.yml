@@ -17,7 +17,7 @@ short_url: 'jekyller.github.io/jasper/'
 baseurl: 
 
 host: 0.0.0.0
-port: 999
+port: 4000
 
 # Permalinks
 permalink: /:title/
@@ -25,7 +25,7 @@ permalink: /:title/
 # permalink: /tag/:tag
 
 # gems and other configs
-plugins: [jekyll-paginate]
+plugins: [jekyll-paginate, rouge, jekyll-sitemap, jekyll-mermaid]
 
 # Additional settings available on the front-matter
 # Site logo in the index.html (as in demo.ghost.io)
