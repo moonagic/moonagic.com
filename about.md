@@ -1,7 +1,9 @@
 ---
 layout: page
 title: 关于
-permalink: /about/
+navigation: true
+logo: 'images/avatar.jpg'
+current: about
 ---
 
 一个生于80年代末的普通人
