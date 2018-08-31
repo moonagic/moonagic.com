@@ -6,6 +6,7 @@ tags:   Dev
 author: moonagic
 categories: moonagic
 subclass: 'post tag-test tag-content'
+navigation: True
 ---
 
 许多全景相机,如[米家全景相机](https://www.mi.com/mj-panorama-camera/),由2个鱼眼相机组成.  
