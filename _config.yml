@@ -4,20 +4,20 @@
 markdown: kramdown
 highlighter: rouge
 paginate: 5
-language: 'en-uk'
+language: 'en-us'
 
 # Website info
 name: 'Finding The Way Home'
 description: "A beautiful narrative written with the world's most elegant publishing platform. The story begins here."
 
 short_url: 'jekyller.github.io/jasper/'
-google_analytics: UA-69281367-1
-disqus: username
+# google_analytics: UA-69281367-1
+# disqus: username
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: /jasper/
+baseurl: 
 
 # Permalinks
-permalink: /:title
+permalink: /:title/
 # permalink: /author/:username
 # permalink: /tag/:tag
 
@@ -45,7 +45,7 @@ plugins: [jekyll-paginate]
 # or "master" otherwise
 safe: false
 lsi: false
-username: jekyller
+username: moonagic
 repo: jasper
 branch: master
 relative_source: ../jasper/
