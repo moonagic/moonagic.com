@@ -7,6 +7,7 @@ author: moonagic
 categories: moonagic
 subclass: 'post tag-test tag-content'
 navigation: True
+logo: 'images/avatar.jpg'
 ---
 
 > 在写了[在Linux上使用rclone挂载Google Drive等服务](https://moonagic.com/mount-google-drive-with-rclone/)以后偶然想到能挂载Google Drive等一众网盘以后还能催生出很多玩法,其中一种就是与Nginx等Web server结合起来,做一个方便的下载页面.

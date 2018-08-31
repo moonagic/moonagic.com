@@ -1,7 +1,12 @@
 # Jykell configuration
 #markdown: redcarpet
 #highlighter: pygments
-markdown: kramdown
+markdown: redcarpet
+# redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "strikethrough", "superscript", "with_toc_data", "footnotes","space_after_headers","highlight","underline","quote","lax_spacing"]
+# Feed!
+
 highlighter: rouge
 paginate: 5
 language: 'en-us'
@@ -19,8 +24,8 @@ short_url: 'moonagic.com'
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
 baseurl: '/'
 
-host: 0.0.0.0
-port: 4000
+# host: 0.0.0.0
+# port: 4000
 
 # Permalinks
 permalink: /:title/
@@ -29,6 +34,10 @@ permalink: /:title/
 
 # gems and other configs
 plugins: [jekyll-paginate, rouge, jekyll-sitemap, jekyll-mermaid]
+
+# mermaid
+mermaid:
+  src: '/assets/js/mermaid.min.js'
 
 # Additional settings available on the front-matter
 # Site logo in the index.html (as in demo.ghost.io)

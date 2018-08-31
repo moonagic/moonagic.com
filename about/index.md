@@ -1,13 +1,47 @@
 ---
 layout: page
-title: About
+title: 关于
 navigation: true
-logo: 'assets/images/ghost.png'
+logo: 'images/avatar.jpg'
 current: about
 ---
 
-This is a demo blog for Ghost, it contains dummy content which allows you to click around and see what a Ghost blog running the default theme looks like.
+一个生于80年代末的普通人
 
-We use this for testing and for reference!
+曾妄想要当飞行员(驾驶苏霍伊那种,不是波音更不是空客)
 
-If you'd like to set up your own blog, head on over to [https://ghost.org](https://ghost.org) and sign up.
+身高180,中学时代是著名大竹竿.而大学毕业后体重从100出头直接飙升到180+
+
+已婚,老婆大学毕业那年就嫁给了我
+
+大学学了建筑而毕业后转投了移动平台游戏领域.曾身兼策划程序美术三职,后退而专注于coding
+
+对互联网有浓厚兴趣
+
+对Android无一丝好感
+
+World of Warcraft 10年级
+
+Clash of Clans 3年级
+
+偶尔也矫情 偶尔也抬杠
+
+我本将心向明月
+
+我不知道我是不是你眼中的点点繁星,但你永远是我心中褪不去的涟漪
+
+有些故事还没讲完那就算了吧
+
+那些心情在岁月中已经难辨真假
+
+如今这里荒草丛生没有了鲜花
+
+好在曾经拥有你们的春秋和冬夏
+
+他们都老了吧
+
+他们在哪里呀
+
+我们就这样
+
+各自奔天涯

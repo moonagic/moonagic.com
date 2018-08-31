@@ -192,7 +192,7 @@ body {
     max-height: 100%;
     font-family: "Merriweather", serif;
     letter-spacing: 0.01rem;
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     line-height: 1.75em;
     color: #3A4145;
     -webkit-font-feature-settings: 'kern' 1;
@@ -325,6 +325,8 @@ blockquote {
 blockquote p {
     margin: 0.8em 0;
     font-style: italic;
+    background: #fafafa;
+    border-radius: 8px;
 }
 
 blockquote small {
@@ -348,15 +350,16 @@ mark {
 
 code, tt {
     padding: 1px 3px;
-    font-family: Inconsolata, monospace, sans-serif;
+    font-family: 'Operator Mono Light', 'Source Code Pro', Inconsolata, monospace, sans-serif;
     font-size: 0.85em;
     white-space: pre-wrap;
-    border: #E3EDF3 1px solid;
-    background: #F7FAFB;
-    border-radius: 2px;
+    /*border: #E3EDF3 1px solid;*/
+    background: #FF6262;
+    border-radius: 4px;
     -webkit-font-feature-settings: "liga" 0;
     -moz-font-feature-settings: "liga" 0;
     font-feature-settings: "liga" 0;
+    color: #FFFFFF;
 }
 
 pre {
@@ -1001,7 +1004,7 @@ body.nav-opened .nav {
 .post {
     position: relative;
     width: 80%;
-    max-width: 1080px;
+    max-width: 920px;
     margin: 4rem auto;
     padding-bottom: 4rem;
     border-bottom: #EBF2F6 1px solid;
@@ -1026,7 +1029,7 @@ body.nav-opened .nav {
 }
 
 body:not(.post-template) .post-title {
-    font-size: 3.6rem;
+    font-size: 3.4rem;
 }
 
 body.page-template .post-title {
@@ -1180,7 +1183,7 @@ body.page-template .post-title {
    text column to break out. */
 .post-content img {
     display: block;
-    max-width: 108%;
+    max-width: 116%;
     height: auto;
     padding: 0.6em 0;
     /* Centers an image by (1) pushing its left edge to the
