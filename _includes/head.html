@@ -24,7 +24,7 @@
     "@type": "Website",
     "publisher": "{{ site.name }}",
     "name": "{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}",
-    "url": "{{ site.url }}{% if site.baseurl %}{{ site.baseurl }}{% endif %}{{ page.url }}",
+    "url": "{{ site.url }}{{ page.url }}",
     "image": "{{ site.baseurl }}{% if page.cover %}{{ page.cover }}{% else %}assets/images/cover1.jpg{% endif %}",
     "description": "{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"
 }
