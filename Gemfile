@@ -12,7 +12,6 @@ ruby RUBY_VERSION
 gem "jekyll", "3.8.3"
 gem "html-proofer", "3.9.1"
 gem "rake"
-gem "redcarpet"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
@@ -24,4 +23,6 @@ group :jekyll_plugins do
     gem "jekyll-mermaid"
     gem "rouge"
     gem "jekyll-paginate"
+    gem "jekyll-compose"
+    gem "redcarpet"
 end
