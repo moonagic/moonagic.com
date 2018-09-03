@@ -360,6 +360,8 @@ code, tt {
     -moz-font-feature-settings: "liga" 0;
     font-feature-settings: "liga" 0;
     color: #FFFFFF;
+    /* 关闭阴影 */
+    text-shadow: 0 0 1px rgba(0,0,0,0);
 }
 
 pre {
