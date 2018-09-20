@@ -2,7 +2,7 @@
 layout: post
 title: YAML,比JSON更适合作配置文件
 date: 2018-08-07 21:38 +0800
-tags:   Dev
+tags:   DEV
 author: moonagic
 categories: moonagic
 subclass: 'post tag-test tag-content'

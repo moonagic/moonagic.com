@@ -2,7 +2,7 @@
 layout: post
 title: 利用双鱼眼图制作全景图
 date: 2018-08-29 18:06 +0800
-tags:   Dev
+tags:   DEV
 author: moonagic
 categories: moonagic
 subclass: 'post tag-test tag-content'
