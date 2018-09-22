@@ -19,7 +19,7 @@ meta_keywords: moonagic, 月杪, 月光林地, jekyll, blog, 博客, 独立博�
 url: "https://moonagic.com"
 
 short_url: 'moonagic.com'
-# google_analytics: UA-69281367-1
+google_analytics: UA-126239702-1
 # disqus: username
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
 baseurl: '/'
