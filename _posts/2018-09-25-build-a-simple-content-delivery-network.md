@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 搭建一个简易的自用CDN
+title: 组建一个简易的自用CDN
 date: 2018-09-25 14:23 +0800
 tags:   CDN Nginx
 author: moonagic
