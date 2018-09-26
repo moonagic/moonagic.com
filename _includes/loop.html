@@ -21,7 +21,7 @@
         </header>
         <section class="post-excerpt">
             <!-- <p>{{ post.content | strip_html | truncatewords: 26 }} <a class="read-more" href="{{ site.baseurl }}{{ post.url | remove: '/' }}">&raquo;</a></p> -->
-            <p>{{ post.excerpt | strip_html }}</p>
+            <p>{{ post.excerpt | strip_html | truncate:256, "..." }}</p>
         </section>
         <footer class="post-meta">
             {% for author in site.data.authors %}
