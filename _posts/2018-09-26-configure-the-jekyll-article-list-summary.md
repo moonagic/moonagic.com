@@ -8,6 +8,7 @@ categories: moonagic
 subclass: 'post tag-test tag-content'
 navigation: True
 logo: 'images/avatar.jpg'
+excerpt: 目前使用的主题并没有索引文章摘要,导致某些文章在列表中预览内容量非常大.而Jekyll自身是有提供文章摘要支持的.
 ---
 
 目前使用的主题并没有索引文章摘要,导致某些文章在列表中预览内容量非常大.  

@@ -8,6 +8,7 @@ categories: moonagic
 subclass: 'post tag-test tag-content'
 navigation: True
 logo: 'images/avatar.jpg'
+excerpt: 利用现有的服务和资源组建一个自用的简易CDN
 ---
 
 ---
