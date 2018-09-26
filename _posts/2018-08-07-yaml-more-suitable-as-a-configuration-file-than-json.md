@@ -8,7 +8,6 @@ categories: moonagic
 subclass: 'post tag-test tag-content'
 navigation: True
 logo: 'images/avatar.jpg'
-excerpt: 罗列了JSON作为配置文件的缺点并推荐使用YAML替代它
 ---
 
 > 很多项目使用JSON作为配置文件,最明显的例子就是npm和yarn使用的package.json文件.当然这更多的是因为JSON和JS千丝万缕的关系.
