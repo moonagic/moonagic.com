@@ -39,6 +39,8 @@ plugins: [jekyll-paginate, rouge, jekyll-sitemap, jekyll-mermaid]
 mermaid:
   src: '/assets/js/mermaid.min.js'
 
+excerpt_separator:  '<!-- more -->'
+
 # Additional settings available on the front-matter
 # Site logo in the index.html (as in demo.ghost.io)
 # Author's page cover in _layouts/author.html
