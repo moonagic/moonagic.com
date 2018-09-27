@@ -109,21 +109,17 @@ YAML的主要缺点是规范非常复杂,不同的实现之间可能存在不一
 ```yml
 # html lang
 language: en
-
 # main menu navigation
 menu:
   首页: /
   关于: /about
   归档: /archives
   标签: /tags
-
 # Miscelaneous
 favicon: /favicon.ico
-
 # stylesheets loaded in the <head>
 stylesheets:
 - /css/style.css
-
 # scripts loaded in the end of the body
 scripts:
 - /js/script.js
