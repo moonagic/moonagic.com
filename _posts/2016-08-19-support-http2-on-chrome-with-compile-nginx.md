@@ -194,7 +194,7 @@ make
 make install
 ```
 ```bash
-git clone https://github.com/google/ngx_brotli.git
+git clone https://github.com/eustas/ngx_brotli.git
 cd ngx_brotli
 git submodule update --init
 ```
