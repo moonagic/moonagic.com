@@ -8,7 +8,6 @@ const offlineResources = [
 ];
 
 const ignoreFetch = [
-  /https?:\/\/cdn.agic.io\//,
   /https?:\/\/fonts.googleapis.com\//,
   /https?:\/\/www.google-analytics.com\//,
   /https?:\/\/fonts.gstatic.com\//
