@@ -2,7 +2,7 @@
 layout: post
 title: 自己编译鼠须管
 date: 2018-10-21 21:00 +0800
-tags:   squirrel rime MacOS
+tags:   rime Mac
 description: 自己编译鼠须管
 author: moonagic
 categories: moonagic
