@@ -50,3 +50,9 @@ logo: 'images/avatar.jpg'
 * 偶尔断开,特别是左耳机
 * 充电盒是卡扣式而非AirPods的磁吸式
 * 电量的显示很明显不够准确,甚至iOS下拉框和App中的电量永远是不一样的
+
+
+---
+#### 后记
+使用Jabra Elite Active 65t一段时间以后再一次在嘈杂环境中使用AirPods的话已经完全没法接受了.
+
