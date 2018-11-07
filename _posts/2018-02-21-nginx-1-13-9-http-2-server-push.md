@@ -42,7 +42,10 @@ server {
 
 * 使用开发人员工具进行验证(Google Chrome)
 
-![](https://cdn.agic.io/images/2018/02/http2-server-push-chrome-screenshot.png)
+<picture>
+  <source srcset="https://cdn.agic.io/images/2018/02/http2-server-push-chrome-screenshot.webp" type="image/webp">
+  <img src="https://cdn.agic.io/images/2018/02/http2-server-push-chrome-screenshot.png" alt="">
+</picture>
 
 * 使用命令行客户端进行验证(nghttp)
 

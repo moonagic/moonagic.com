@@ -16,4 +16,7 @@ logo: 'images/avatar.jpg'
 
 但目前有了[GRV](https://github.com/rgburke/grv)这样的终端查看工具,比git自带的查看方法方便了很多甚至不输上面的GUI工具.
 
-![](https://cdn.agic.io/images/2018/02/grv.png)
+<picture>
+  <source srcset="https://cdn.agic.io/images/2018/02/grv.webp" type="image/webp">
+  <img src="https://cdn.agic.io/images/2018/02/grv.png" alt="">
+</picture>

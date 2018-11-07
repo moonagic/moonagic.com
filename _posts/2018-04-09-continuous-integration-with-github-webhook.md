@@ -78,11 +78,17 @@ Webhook的原理就是当GitHub项目有需要监听的Event的时候向Webhook�
 
 ##### GitHub Webhook配置
 在需要配置Webhook的GitHub项目的Settings-Webhooks,如图:
-![](https://cdn.agic.io/images/2018/04/webhook0.png)
+<picture>
+  <source srcset="https://cdn.agic.io/images/2018/04/webhook0.webp" type="image/webp">
+  <img src="https://cdn.agic.io/images/2018/04/webhook0.png" alt="">
+</picture>
 
 ### 运行
 在GitHub上进行了上一步配置有的Event后GitHub自动发送的请求会显示在Webhooks页面,如图:
-![](https://cdn.agic.io/images/2018/04/webhook1.png)
+<picture>
+  <source srcset="https://cdn.agic.io/images/2018/04/webhook1.webp" type="image/webp">
+  <img src="https://cdn.agic.io/images/2018/04/webhook1.png" alt="">
+</picture>
 
 图中前五次都为请求成功,而最新一次请求失败了.  
 然后当Webhook支持服务中的动作完成后本次集成工作就结束了.
