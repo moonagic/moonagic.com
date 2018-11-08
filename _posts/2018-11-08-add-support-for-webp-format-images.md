@@ -33,7 +33,7 @@ cwebp -q 90 input.png -o output.webp
 ```
 然后在自动部署脚本中将所有的图片都转换为webp,这一部分的参考
 ```bash
-#!/usr/bin/zsh
+#!/bin/zsh
 imageDir="path/to/images"
 function read_dir(){
     for file in `ls $1`
