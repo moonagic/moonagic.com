@@ -24,7 +24,7 @@ google_analytics_url: 'https://cdn.agic.io'
 # disqus: username
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
 baseurl: '/'
-
+cdnurl: 'https://cdn.agic.io/'
 # host: 0.0.0.0
 # port: 4000
 
