@@ -49,3 +49,9 @@ excerpt_separator:  '<!-- more -->'
 # Post's page cover as a per-post basis _posts/...
 # Disqus comments as a per-post basis
 # ...
+
+compress_html:
+  clippings:      all
+  comments:       ["<!--", "-->"]
+  endings:        all
+  startings:      [html, head, body]
