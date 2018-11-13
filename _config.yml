@@ -50,8 +50,3 @@ excerpt_separator:  '<!-- more -->'
 # Disqus comments as a per-post basis
 # ...
 
-compress_html:
-  clippings:      all
-  comments:       ["<!--", "-->"]
-  endings:        all
-  startings:      [html, head, body]
