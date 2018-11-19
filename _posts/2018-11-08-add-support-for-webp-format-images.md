@@ -63,17 +63,17 @@ read_dir $imageDir
 
 现在就可以正确的在Chrome上展示webp图片而在Safari上展示jpg图片了.
 <picture class="picture">
-  <source type="image/webp" srcset="https://cdn.agic.io/images/2018/11/2018-11-08at155024.webp">
-  <img class="image" src="https://cdn.agic.io/images/2018/11/2018-11-08at155024.png">
+  <source type="image/webp" srcset="/images/2018/11/2018-11-08at155024.webp">
+  <img class="image" src="/images/2018/11/2018-11-08at155024.png">
 </picture>
 <picture class="picture">
-  <source type="image/webp" srcset="https://cdn.agic.io/images/2018/11/2018-11-08at155123.webp">
-  <img class="image" src="https://cdn.agic.io/images/2018/11/2018-11-08at155123.png">
+  <source type="image/webp" srcset="/images/2018/11/2018-11-08at155123.webp">
+  <img class="image" src="/images/2018/11/2018-11-08at155123.png">
 </picture>
 而同时,在成功展示webp格式图像的时候也很大程度节省了流量
 <picture class="picture">
-  <source type="image/webp" srcset="https://cdn.agic.io/images/2018/11/2018-11-08at155608.webp">
-  <img class="image" src="https://cdn.agic.io/images/2018/11/2018-11-08at155608.png">
+  <source type="image/webp" srcset="/images/2018/11/2018-11-08at155608.webp">
+  <img class="image" src="/images/2018/11/2018-11-08at155608.png">
 </picture>
 
 <font color=#009900>Enjoy.</font>

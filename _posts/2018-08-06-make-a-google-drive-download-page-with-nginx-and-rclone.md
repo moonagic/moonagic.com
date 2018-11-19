@@ -23,8 +23,8 @@ autoindex on;
 ```
 重载后就可以成功开启autoindex模式了
 <picture>
-  <source srcset="https://cdn.agic.io/images/2018/08/Screen_Shot_2018-08-06_at_21.21.28.webp" type="image/webp">
-  <img src="https://cdn.agic.io/images/2018/08/Screen_Shot_2018-08-06_at_21.21.28.png" alt="">
+  <source srcset="/images/2018/08/Screen_Shot_2018-08-06_at_21.21.28.webp" type="image/webp">
+  <img src="/images/2018/08/Screen_Shot_2018-08-06_at_21.21.28.png" alt="">
 </picture>
 
 成功开启后还需要配置身份验证,不然只要知道地址谁可以随意下载网盘中的文件了.  
@@ -40,16 +40,16 @@ auth_basic_user_file /etc/nginx/conf.d/passwd;
 ```
 重载后再次打开页面,就会看到提醒验证的弹窗了.  
 <picture>
-  <source srcset="https://cdn.agic.io/images/2018/08/Screen_Shot_2018-08-06_at_20.27.20.webp" type="image/webp">
-  <img src="https://cdn.agic.io/images/2018/08/Screen_Shot_2018-08-06_at_20.27.20.png" alt="">
+  <source srcset="/images/2018/08/Screen_Shot_2018-08-06_at_20.27.20.webp" type="image/webp">
+  <img src="/images/2018/08/Screen_Shot_2018-08-06_at_20.27.20.png" alt="">
 </picture>
 
 #### 美化
 经过上面的配置已经基本可用了,不过默认的index界面确实不太美观.  
 于是找到了`Nginx-Fancyindex-Theme`这个美化模板,配置好以后的样子大概是这样:
 <picture>
-  <source srcset="https://cdn.agic.io/images/2018/08/Screen_Shot_2018-08-06_at_20.27.34.webp" type="image/webp">
-  <img src="https://cdn.agic.io/images/2018/08/Screen_Shot_2018-08-06_at_20.27.34.png" alt="">
+  <source srcset="/images/2018/08/Screen_Shot_2018-08-06_at_20.27.34.webp" type="image/webp">
+  <img src="/images/2018/08/Screen_Shot_2018-08-06_at_20.27.34.png" alt="">
 </picture>
 稍微好看了一丢丢.
 

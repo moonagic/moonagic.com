@@ -64,13 +64,13 @@ guetzli [--quality Q] [--verbose] original.jpg output.jpg
 
 * 压缩前
 <picture>
-  <source srcset="https://cdn.agic.io/images/2018/03/general_jpg.webp" type="image/webp">
-  <img src="https://cdn.agic.io/images/2018/03/general_jpg.jpg" alt="">
+  <source srcset="/images/2018/03/general_jpg.webp" type="image/webp">
+  <img src="/images/2018/03/general_jpg.jpg" alt="">
 </picture>
 * 压缩后
 <picture>
-  <source srcset="https://cdn.agic.io/images/2018/03/jpg_with_guetzli.webp" type="image/webp">
-  <img src="https://cdn.agic.io/images/2018/03/jpg_with_guetzli.jpg" alt="">
+  <source srcset="/images/2018/03/jpg_with_guetzli.webp" type="image/webp">
+  <img src="/images/2018/03/jpg_with_guetzli.jpg" alt="">
 </picture>
 
 #### 和其他图片对比
