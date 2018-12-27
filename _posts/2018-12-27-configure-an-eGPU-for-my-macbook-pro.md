@@ -41,7 +41,9 @@ Apple Store直接提供了成品:
 
 * 显卡坞
 
-选择了vega64这样的电老虎,那么显卡坞的选择面就很窄了.  egpu.io上有 [buyer’s guide](https://egpu.io/external-gpu-buyers-guide-2018/)  
+选择了vega64这样的电老虎,那么显卡坞的选择面就很窄了.  
+> egpu.io上有 [buyer’s guide](https://egpu.io/external-gpu-buyers-guide-2018/)  
+
 最后选择了Razer Core X,因为是前面提到的链接中使用的显卡坞并且价格也可以接受,并且这款显卡坞同时也可以为MacBook Pro提供电源.  
 京东和淘宝价格2600-2700,不过因为这款显卡坞并没有在中国大陆发售与其在淘宝或者京东第三方购买不如去闲鱼碰碰运气.  
 果然,我在咸鱼拿下这款显卡坞的价格是1900.  
@@ -61,6 +63,8 @@ Apple Store直接提供了成品:
 在室温15摄氏度的情况下MacBook Pro的CPU温度最高在60-70摄氏度,显卡温度最高在70-75摄氏度.笔记本风扇还是和仅亮屏的时候一样的2000多转.  
 > 以前用2015版MacBook Pro玩World of Warcraft的时候你会以为身边有什么东西要起飞了.
 
+另外一个是噪音,全负荷的时候风扇声音是有的,但哪怕就在桌上也完全可以接受.
+
 #### 最后
 因为主要使用Mac,同时偶尔玩的游戏也只有World of Warcraft所以决定这么玩.  
 真要玩游戏还是配一台PC吧.
@@ -72,7 +76,7 @@ Apple Store直接提供了成品:
   <img class="image" src="/images/2018/12/IMG_0062.jpeg">
 </picture>
 
-安装好以后,画质有点渣单还是可以看出来和一个小心机箱差不多大.
+安装好以后,画质有点渣单还是可以看出来和一个小型机箱差不多大.
 <picture class="picture">
   <source type="image/webp" srcset="/images/2018/12/IMG_0066.webp">
   <img class="image" src="/images/2018/12/IMG_0066.jpg">
