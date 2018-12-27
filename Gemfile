@@ -9,7 +9,7 @@ ruby RUBY_VERSION
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "3.8.3"
+gem "jekyll", "3.8.5"
 gem "html-proofer", "3.9.1"
 gem "rake"
 
