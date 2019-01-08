@@ -48,6 +48,8 @@ permalink: 404.html
     </main>
 
     <!-- Add Google Analytics  -->
-    {% include analytics.html %}
+    {% if site.google_analytics %}
+        {% include analytics.html %}
+    {% endif %}
 </body>
 </html>
