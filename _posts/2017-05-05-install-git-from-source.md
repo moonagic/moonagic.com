@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 从源码编译安装GIt
+title: 从源码编译安装Git
 date: 2017-05-05
 tags: [Git]
-description: 从源码编译安装GIt
+description: 从源码编译安装Git
 author: moonagic
 categories: moonagic
 subclass: 'post tag-test tag-content'
