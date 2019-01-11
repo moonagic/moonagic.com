@@ -7,7 +7,7 @@ redcarpet:
 # Feed!
 
 highlighter: rouge
-paginate: 5
+paginate: 10
 language: 'en-us'
 
 # Website info
