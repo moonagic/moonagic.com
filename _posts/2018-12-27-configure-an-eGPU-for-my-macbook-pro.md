@@ -91,11 +91,11 @@ Apple Store直接提供了成品:
 World of Warcraft 4k分辨率下特效开到8.
 <picture class="picture">
   <source type="image/webp" srcset="/images/2018/12/wow0.webp">
-  <img class="image" src="/images/2018/12/wow0.png">
+  <img class="image" src="/images/2018/12/wow0.jpg">
 </picture>
 
 上个版本的显卡测试位,公司的1080ti在1080分辨率下只有不到30FPS.
 <picture class="picture">
   <source type="image/webp" srcset="/images/2018/12/wow1.webp">
-  <img class="image" src="/images/2018/12/wow1.png">
+  <img class="image" src="/images/2018/12/wow1.jpg">
 </picture>
