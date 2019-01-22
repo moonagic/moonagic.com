@@ -26,13 +26,51 @@ xcode-select --install
 brew install cmake git boost
 ```
 
+
 #### 编译安装
 ```bash
-git clone https://github.com/rime/squirrel.git
+git clone --recursive https://github.com/rime/squirrel.git
 cd squirrel
-git submodule update --init --recursive
 make deps
 sudo make install
 ```
 
 后面的工作就和从pkg安装一样了.
+
+#### 更新
+在最近重新编译Squirrel 0.11.0 版本的时候遇到了问题.  
+```bash
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Ld xbuild/lib/Release/librime.1.4.0.dylib normal x86_64
+(1 failure)
+make[1]: *** [release] Error 65
+make: *** [librime] Error 2
+```
+在搜索了Squirrel的issues列表[^diff]后发现是因为由brew安装的最新版boots1.68.0会依赖icu4c,而这个依赖在Mac下并不存在.
+```bash
+boost: stable 1.68.0 (bottled), HEAD
+Collection of portable C++ source libraries
+https://www.boost.org/
+/usr/local/Cellar/boost/1.68.0 (13,712 files, 460.2MB)
+  Poured from bottle on 2018-12-07 at 14:38:09
+/usr/local/Cellar/boost/1.68.0_1 (13,712 files, 469.0MB) *
+  Poured from bottle on 2019-01-22 at 12:44:52
+From: https://github.com/Homebrew/homebrew-core/blob/master/Formula/boost.rb
+==> Dependencies
+Required: icu4c ✔
+==> Options
+--HEAD
+	Install HEAD version
+==> Analytics
+install: 67,025 (30 days), 193,794 (90 days), 650,934 (365 days)
+install_on_request: 19,138 (30 days), 55,740 (90 days), 192,830 (365 days)
+build_error: 0 (30 days)
+```
+作者给出了几个解决方案,自己编译boots或者编译Squirrel时将librime的源码切换到`with-icu`分支.  
+重新编译`--without-icu`的boots怕造成其它问题,所以我使用了后者.  
+只需要在clone完成Squirrel库后到librime里手动切换分支,然后开始编译就可以正确编译通过了.  
+
+[^diff]: https://github.com/rime/librime/issues/247
