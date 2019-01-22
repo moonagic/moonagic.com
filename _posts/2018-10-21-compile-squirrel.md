@@ -49,7 +49,7 @@ The following build commands failed:
 make[1]: *** [release] Error 65
 make: *** [librime] Error 2
 ```
-在搜索了Squirrel的issues列表[^diff]后发现是因为由brew安装的最新版boots1.68.0会依赖icu4c,而这个依赖在Mac下并不存在.
+在搜索了Squirrel的issues列表[^diff]后发现是因为由brew安装的最新版 boost 1.68.0 会依赖icu4c,而这个依赖在Mac下并不存在.
 ```bash
 boost: stable 1.68.0 (bottled), HEAD
 Collection of portable C++ source libraries
@@ -69,8 +69,8 @@ install: 67,025 (30 days), 193,794 (90 days), 650,934 (365 days)
 install_on_request: 19,138 (30 days), 55,740 (90 days), 192,830 (365 days)
 build_error: 0 (30 days)
 ```
-作者给出了几个解决方案,自己编译boots或者编译Squirrel时将librime的源码切换到`with-icu`分支.  
-重新编译`--without-icu`的boots怕造成其它问题,所以我使用了后者.  
+作者给出了几个解决方案,自己编译boost或者编译Squirrel时将librime的源码切换到`with-icu`分支.  
+重新编译`--without-icu`的boost怕造成其它问题,所以我使用了后者.  
 只需要在clone完成Squirrel库后到librime里手动切换分支,然后开始编译就可以正确编译通过了.  
 
 [^diff]: https://github.com/rime/librime/issues/247
