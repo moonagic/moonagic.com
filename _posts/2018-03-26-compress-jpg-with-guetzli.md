@@ -83,3 +83,9 @@ guetzli [--quality Q] [--verbose] original.jpg output.jpg
 
 在特定应用环境下,将jpg图片使用Guetzli进行一次性压缩拥有比较大的实用性.
 
+
+#### 更新
+ChromeLabs开源了一个新的工具,整合了几个比较知名的工具.  
+其中MozJPEG对jpg的重编码效率更高.  
+https://github.com/GoogleChromeLabs/squoosh/
+
