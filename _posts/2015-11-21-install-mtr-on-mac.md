@@ -52,3 +52,19 @@ sudo chmod u+s mtr
 
 ##### 2018-07-14 更新
 最新版不支持上面的操作了,老老实实加sudo吧.
+
+##### 2019-02-25 更新
+目前发现无法以root执行的原因是在代码里手动做了判定,应该是出于权限安全原因.  
+`mtr.c`文件中:
+```c
+/*
+   mtr used to be suid root.  It should not be with this version.
+   We'll check so that we can notify people using installation
+   mechanisms with obsolete assumptions.
+*/
+if ((geteuid() != getuid()) || (getegid() != getgid())) {
+    error(EXIT_FAILURE, errno, "mtr should not run suid");
+}
+```
+将这一部分注释后重新编译就可以再次使用最初的办法进行操作了.
+
