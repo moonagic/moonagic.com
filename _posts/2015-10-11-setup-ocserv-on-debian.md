@@ -28,13 +28,13 @@ apt-get install libseccomp-dev
 
 ##### ocserv编译安装(目前最新版):
 ```bash
-wget ftp://ftp.infradead.org/pub/ocserv/ocserv-0.12.1.tar.xz
-tar Jxvf ocserv-0.12.1.tar.xz
-cd ocserv-0.12.1
+wget ftp://ftp.infradead.org/pub/ocserv/ocserv-0.12.3.tar.xz
+tar Jxvf ocserv-0.12.3.tar.xz
+cd ocserv-0.12.3
 ./configure --prefix=/usr --sysconfdir=/etc
 make && make install
 ```
-在预编译前如果需要ocserv支持更多的路由表需要编辑src/vpn.h:
+在预编译前如果需要ocserv支持更多的路由表需要编辑src/vpn.h(新版本以后已经不需要了):
 ```c
 #define DEFAULT_CONFIG_ENTRIES 200 // 默认96,iOS Anyconnect客户端最多支持到200条路由表
 ```
