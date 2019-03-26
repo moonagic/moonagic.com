@@ -73,4 +73,7 @@ build_error: 0 (30 days)
 重新编译`--without-icu`的boost怕造成其它问题,所以我使用了后者.  
 只需要在clone完成Squirrel库后到librime里手动切换分支,然后开始编译就可以正确编译通过了.  
 
+#### 更新(2019.3.26)
+针对上面的编译问题,目前文档中建议通过brew安装指定boost版本来解决.
+
 [^diff]: https://github.com/rime/librime/issues/247
