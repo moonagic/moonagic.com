@@ -49,7 +49,7 @@ The following build commands failed:
 make[1]: *** [release] Error 65
 make: *** [librime] Error 2
 ```
-在搜索了Squirrel的issues列表[issues/247](https://github.com/rime/librime/issues/247)后发现是因为由brew安装的最新版 boost 1.68.0 会依赖icu4c,而这个依赖在Mac下并不存在.
+在搜索了Squirrel的issues列表[issues#247](https://github.com/rime/librime/issues/247)后发现是因为由brew安装的最新版 boost 1.68.0 会依赖icu4c,而这个依赖在Mac下并不存在.
 ```bash
 boost: stable 1.68.0 (bottled), HEAD
 Collection of portable C++ source libraries
