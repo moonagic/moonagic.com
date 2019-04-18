@@ -35,7 +35,7 @@ apt-get install --no-install-recommends \
     libc-ares-dev
 ```
 ###### 编译安装libsodium
-==**如果你是使用的Debian9并且你不会使用到`xchacha20-ietf-poly1305`的话那么你可以安装`libsodium-dev`后跳过这一步**==
+==**如果你是使用的Debian9并且你不会使用到`xchacha20-ietf-poly1305`加密方式的话那么你可以安装`libsodium-dev`后跳过这一步**==
 ```bash
 git clone https://github.com/jedisct1/libsodium.git
 cd libsodium
