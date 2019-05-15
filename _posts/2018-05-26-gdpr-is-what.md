@@ -60,8 +60,8 @@ GDPR不止适用于欧盟内的企业,还适用于欧盟以外的企业——如
 ##### 然而
 然而这个星球上总有某些非主流,他们可以否认基本的价值观,他们可以为了不遵守GDPR而退出欧洲市场.  
 <picture>
-  <source srcset="/images/2018/05/gdpr.webp" type="image/webp">
-  <img src="/images/2018/05/gdpr.jpg" alt="">
+  <source srcset="https://cdn.agic.io/images/2018/05/gdpr.webp" type="image/webp">
+  <img src="https://cdn.agic.io/images/2018/05/gdpr.jpg" alt="">
 </picture>
 当然第二天这事闹得太大,这家公司的CEO跑出来洗了以下地.  
 > 但是有什么用呢?某国这些毫不关心隐私的用户还不是会继续用

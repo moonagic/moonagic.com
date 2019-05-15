@@ -44,8 +44,8 @@ NS1甚至在美国还能实现分州解析,不过对于中国大陆来说并不�
 实现了DNS分区解析后面的事情就简单多了,现在我们只需要按照DNS分区解析的区域部署对应的服务器.  
 然后我们需要实现服务器之间的关联,实现这个关联最简单也最直接的办法就是利用Nginx的反向代理功能.  
 <picture>
-  <source srcset="/images/2018/09/cdn.webp" type="image/webp">
-  <img src="/images/2018/09/cdn.png" alt="">
+  <source srcset="https://cdn.agic.io/images/2018/09/cdn.webp" type="image/webp">
+  <img src="https://cdn.agic.io/images/2018/09/cdn.png" alt="">
 </picture>
 在打通网络以后通过Nginx自带的proxy_cache模块配置好各级缓存规则,现在一个简易的CDN就组建完成了.
 

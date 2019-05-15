@@ -72,30 +72,30 @@ Apple Store直接提供了成品:
 
 拆箱前的合影,可以看出和全长的显卡比起来显卡坞实在是太大了.
 <picture class="picture">
-  <source type="image/webp" srcset="/images/2018/12/IMG_0062.webp">
-  <img class="image" src="/images/2018/12/IMG_0062.jpeg">
+  <source type="image/webp" srcset="https://cdn.agic.io/images/2018/12/IMG_0062.webp">
+  <img class="image" src="https://cdn.agic.io/images/2018/12/IMG_0062.jpeg">
 </picture>
 
 安装好以后,画质有点渣单还是可以看出来和一个小型机箱差不多大.
 <picture class="picture">
-  <source type="image/webp" srcset="/images/2018/12/IMG_0066.webp">
-  <img class="image" src="/images/2018/12/IMG_0066.jpg">
+  <source type="image/webp" srcset="https://cdn.agic.io/images/2018/12/IMG_0066.webp">
+  <img class="image" src="https://cdn.agic.io/images/2018/12/IMG_0066.jpg">
 </picture>
 
 插上后不需要作额外的操作直接就显示GPU为vega64了.
 <picture class="picture">
-  <source type="image/webp" srcset="/images/2018/12/about0.webp">
-  <img class="image" src="/images/2018/12/about0.png">
+  <source type="image/webp" srcset="https://cdn.agic.io/images/2018/12/about0.webp">
+  <img class="image" src="https://cdn.agic.io/images/2018/12/about0.png">
 </picture>
 
 World of Warcraft 4k分辨率下特效开到8.
 <picture class="picture">
-  <source type="image/webp" srcset="/images/2018/12/wow0.webp">
-  <img class="image" src="/images/2018/12/wow0.jpg">
+  <source type="image/webp" srcset="https://cdn.agic.io/images/2018/12/wow0.webp">
+  <img class="image" src="https://cdn.agic.io/images/2018/12/wow0.jpg">
 </picture>
 
 上个版本的显卡测试位,公司的1080ti在1080分辨率下只有不到30FPS.
 <picture class="picture">
-  <source type="image/webp" srcset="/images/2018/12/wow1.webp">
-  <img class="image" src="/images/2018/12/wow1.jpg">
+  <source type="image/webp" srcset="https://cdn.agic.io/images/2018/12/wow1.webp">
+  <img class="image" src="https://cdn.agic.io/images/2018/12/wow1.jpg">
 </picture>

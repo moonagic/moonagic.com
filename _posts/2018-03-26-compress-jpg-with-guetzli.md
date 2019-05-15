@@ -60,17 +60,17 @@ guetzli [--quality Q] [--verbose] original.png output.jpg
 guetzli [--quality Q] [--verbose] original.jpg output.jpg
 ```
 其中`--quality`参数为质量,取值100~85,默认为95.  
-压缩一张尺寸为1200x900文件大小为337kb的图片为例,默认压缩后图片大小254k.同时前后2张图片肉眼感官上基本无差别.
+压缩一张尺寸为1200x900文件大小为337kb的图片为例,默认压缩后图片大小254k.同时前后2张图片肉眼感官上基本无差别.  
 
 * 压缩前
 <picture>
-  <source srcset="/images/2018/03/general_jpg.webp" type="image/webp">
-  <img src="/images/2018/03/general_jpg.jpg" alt="">
+  <source srcset="https://cdn.agic.io/images/2018/03/general_jpg.webp" type="image/webp">
+  <img src="https://cdn.agic.io/images/2018/03/general_jpg.jpg" alt="">
 </picture>
 * 压缩后
 <picture>
-  <source srcset="/images/2018/03/jpg_with_guetzli.webp" type="image/webp">
-  <img src="/images/2018/03/jpg_with_guetzli.jpg" alt="">
+  <source srcset="https://cdn.agic.io/images/2018/03/jpg_with_guetzli.webp" type="image/webp">
+  <img src="https://cdn.agic.io/images/2018/03/jpg_with_guetzli.jpg" alt="">
 </picture>
 
 #### 和其他图片对比
