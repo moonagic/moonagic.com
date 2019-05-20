@@ -438,7 +438,7 @@ table table table { background-color: #FFF; }
 
 table tbody > tr:nth-child(odd) > td,
 table tbody > tr:nth-child(odd) > th {
-    background-color: #F6F6F6;
+    background-color: #fdce87;
 }
 
 table.plain tbody > tr:nth-child(odd) > td,
