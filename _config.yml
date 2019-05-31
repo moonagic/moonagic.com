@@ -11,10 +11,10 @@ paginate: 10
 language: 'en-us'
 
 # Website info
-name: "月光林地"
+name: "雨戈林多"
 description: "Do one thing, and do it well."
 meta_description: 月杪的个人博客
-meta_keywords: moonagic, 月杪, 月光林地, jekyll, blog, 博客, 独立博客, github
+meta_keywords: moonagic, 月杪, 雨戈林多, 月光林地, jekyll, blog, 博客, 独立博客, github
 url: "https://moonagic.com"
 
 short_url: 'moonagic.com'
