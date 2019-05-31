@@ -18,7 +18,7 @@ apt-get install build-essential libpcre3 libpcre3-dev zlib1g-dev
 ###### 下载需要的源代码
 ```bash
 # Openssl版本需要1.0.2才能支持ALPN,而后者是新版Chrome支持HTTP/2的必要条件
-wget -O openssl.zip -c https://github.com/openssl/openssl/archive/OpenSSL_1_1_0h.zip
+wget -O openssl.zip -c https://github.com/openssl/openssl/archive/OpenSSL_1_1_1c.tar.gz
 unzip openssl.zip
 mv openssl-OpenSSL_1_1_0h/ openssl
 
