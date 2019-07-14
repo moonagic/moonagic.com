@@ -32,6 +32,7 @@ brew install cmake git boost
 git clone --recursive https://github.com/rime/squirrel.git
 cd squirrel
 make deps
+make
 sudo make install
 ```
 
