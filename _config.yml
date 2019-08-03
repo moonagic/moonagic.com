@@ -18,7 +18,7 @@ meta_keywords: moonagic, 月杪, 雨戈林多, 月光林地, jekyll, blog, 博�
 url: "https://moonagic.com"
 
 short_url: 'moonagic.com'
-google_analytics: 'UA-74995541-1'
+#google_analytics: 'UA-74995541-x'
 google_analytics_url: 'https://cdn.agic.io'
 cdn_url: 'https://cdn.agic.io/'
 # disqus: username
