@@ -26,11 +26,11 @@ wget -O nginx-ct.zip -c https://github.com/grahamedgecombe/nginx-ct/archive/v1.3
 unzip nginx-ct.zip
 
 # 获取Nginx源码
-wget -c https://nginx.org/download/nginx-1.17.0.tar.gz
-tar zxf nginx-1.17.0.tar.gz
+wget -c https://nginx.org/download/nginx-1.17.2.tar.gz
+tar zxf nginx-1.17.2.tar.gz
 
 # 编译
-cd nginx-1.15.8/
+cd nginx-1.17.2/
 # 编译参数参考了官方源的Nginx
 ./configure \
  --prefix=/etc/nginx \
