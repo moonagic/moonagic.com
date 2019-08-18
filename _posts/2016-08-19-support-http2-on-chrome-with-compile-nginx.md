@@ -182,7 +182,7 @@ useradd nginx
 ```bash
 nginx: [emerg] mkdir() "/var/cache/nginx/client_temp" failed (2: No such file or directory)
 ```
-需要手动创建目录`/var/cache/nginx/`-g www www
+需要手动创建目录`/var/cache/nginx/client_temp`
 
 
 ###### 补充2
