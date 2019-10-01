@@ -157,10 +157,6 @@ KillMode=mixed
 WantedBy=multi-user.target
 
 ```
-```bash
-chmod +x /lib/systemd/system/nginx.service
-```
-现在再执行应该就可以成功启动了.
 
 加入开机自动启动
 ```bash
