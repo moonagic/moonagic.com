@@ -170,8 +170,8 @@ nginx: [emerg] getpwnam("nginx") failed
 ```
 需要手动创建nginx用户.
 ```bash
-groupadd -f nginx nginx
-useradd nginx
+groupadd -f nginx
+useradd -g nginx nginx
 ```
 
 * 错误
