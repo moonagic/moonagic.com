@@ -76,7 +76,7 @@ Apple Store直接提供了成品:
   <img class="image" src="https://cdn.agic.io/images/2018/12/IMG_0062.jpeg">
 </picture>
 
-安装好以后,画质有点渣单还是可以看出来和一个小型机箱差不多大.
+安装好以后,画质有点渣但还是可以看出来比很多ITX机箱还大.
 <picture class="picture">
   <source type="image/webp" srcset="https://cdn.agic.io/images/2018/12/IMG_0066.webp">
   <img class="image" src="https://cdn.agic.io/images/2018/12/IMG_0066.jpg">
