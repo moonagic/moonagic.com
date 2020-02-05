@@ -17,7 +17,7 @@ logo: 'images/avatar.jpg'
 网上已经有了一些编译Telegram的信息,但这些信息可能因为代码更新基本都不可用了.  
 
 #### 拉取代码
-```bash
+```Git
 git clone https://github.com/peter-iakovlev/Telegram-iOS.git
 cd Telegram-iOS/
 # Telegram-iOS 很大部分的功能都是通过submodule来提供的,所以还需要拉取submodule
@@ -85,7 +85,7 @@ brew install yasm
 再次开始编译,这次遇到的问题是`Use of undeclared identifier 'APP_CONFIG_DATA'`,在项目issues列表中找到了相应的解决方案:  
 找到对应的一次[commit](https://github.com/peter-iakovlev/Telegram-iOS/commit/f5880c1a3c63a77179f1c4790716da0bc7e3a6c0), 将`Telegram-iOS/BuildConfig.m`新增的内容注释后,将对应的3个数值替换为自己在 https://my.telegram.org/auth 申请到的AppID等数据.  
 ==在最新的5.7版本源码中已经只需要修改以下3项而不需要注释任何代码了==
-```objective-c
+```Objective-C
 - (NSData * _Nullable)bundleData {
     return nil;//_bundleData;
 }
