@@ -192,7 +192,7 @@ body {
     max-height: 100%;
     font-family: PingFangSC-Light, 'Noto Sans SC', sans-serif;
     letter-spacing: 0.01rem;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     line-height: 1.75em;
     color: #3A4145;
     -webkit-font-feature-settings: 'kern' 1;
@@ -377,7 +377,7 @@ pre {
     white-space: pre;
     overflow: auto;
     background: #F7FAFB;
-    border-radius: 3px;
+    /* border-radius: 3px; */
 }
 
 pre code, pre tt {
