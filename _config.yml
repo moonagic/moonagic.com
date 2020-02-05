@@ -25,8 +25,8 @@ cdn_url: 'https://cdn.agic.io/'
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
 baseurl: '/'
 
-# host: 0.0.0.0
-# port: 4000
+host: 0.0.0.0
+port: 4000
 
 # Permalinks
 permalink: /:title/

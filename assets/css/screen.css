@@ -223,7 +223,7 @@ h4, h5, h6 {
 
 h1 {
     font-size: 5rem;
-    letter-spacing: -2px;
+    /* letter-spacing: -2px; */
     text-indent: -3px;
 }
 
@@ -326,7 +326,7 @@ blockquote p {
     margin: 0.8em 0;
     font-style: italic;
     background: #f8f8f2;
-    border-radius: 8px;
+    /* border-radius: 8px; */
     padding: 0.6em;
 }
 
@@ -868,9 +868,8 @@ body.nav-opened .nav {
     box-sizing: border-box;
     display: block;
     height: 38px;
-    /* padding: 1px 0 5px 0; */
+    padding: 1px 0 5px 0;
     width: auto;
-    border-radius: 0.4em;
 }
 
 .menu-button {
