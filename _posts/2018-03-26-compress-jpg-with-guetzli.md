@@ -74,6 +74,7 @@ guetzli [--quality Q] [--verbose] original.jpg output.jpg
 </picture>
 
 #### 和其他图片对比
+
 | 图片类型  | 图片大小   | 兼容性   |备注   |
 | --------   | :-----:  | :-----:  | :-----:  |
 | jpg        | 小        |   最佳    |         |

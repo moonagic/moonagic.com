@@ -76,4 +76,4 @@ read_dir $imageDir
   <img class="image" src="https://cdn.agic.io/images/2018/11/2018-11-08at155608.png">
 </picture>
 
-<font color=#009900>Enjoy.</font>
+<span style="color: green">Enjoy.</span>
