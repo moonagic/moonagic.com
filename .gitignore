@@ -30,3 +30,5 @@ vendor
 Gemfile.lock
 node_modules
 .vendor
+.jekyll-cache/
+
