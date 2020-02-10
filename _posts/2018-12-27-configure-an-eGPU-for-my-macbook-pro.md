@@ -37,7 +37,7 @@ Apple Store直接提供了成品:
 > 详细的支持在苹果的eGPU支持页面有列出[Use an external graphics processor with your Mac](https://support.apple.com/en-us/HT208544).  
 
 最终选择了华硕的ROG STRIX-RXVEGA64-O8G-GAMING 1298-1590MHz.  
-> 苹果文档中推荐蓝宝石品牌的显卡,不过通过搜索确认这款华硕的显卡也可以正常支持.https://www.reddit.com/r/eGPU/comments/93uxbk/my_setup_2018_15_macbook_pro_razer_core_x_vega_64/
+> 苹果文档中推荐蓝宝石品牌的显卡,不过通过搜索确认这款华硕的显卡也可以正常支持. [https://www.reddit.com/r/eGPU/comments/93uxbk/my_setup_2018_15_macbook_pro_razer_core_x_vega_64/](https://www.reddit.com/r/eGPU/comments/93uxbk/my_setup_2018_15_macbook_pro_razer_core_x_vega_64/)
 
 * 显卡坞
 
