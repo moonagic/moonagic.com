@@ -28,9 +28,9 @@ apt-get install libseccomp-dev
 
 ##### ocserv编译安装(目前最新版):
 ```bash
-wget ftp://ftp.infradead.org/pub/ocserv/ocserv-0.12.4.tar.xz
-tar Jxvf ocserv-0.12.4.tar.xz
-cd ocserv-0.12.4
+wget ftp://ftp.infradead.org/pub/ocserv/ocserv-1.0.0.tar.xz
+tar Jxvf ocserv-1.0.0.tar.xz
+cd ocserv-1.0.0
 ./configure --prefix=/usr --sysconfdir=/etc
 make && make install
 ```
