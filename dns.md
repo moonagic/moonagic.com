@@ -35,3 +35,17 @@ logo: 'images/avatar.jpg'
 | Quad9  |   2620:fe::fe   |  2620:fe::9 |
 | OpenDNS |  2620:0:ccc::2  |  2620:0:ccd::2  |
 | HiNet | 2001:b000:168::1 | 2001:b000:168::2 |
+
+---
+### DNS Over HTTPS
+
+| DNS名  |   主   |
+| --------   | :-----:  |
+| Google  | https://dns.google.com/dns-query  |
+| Cloudflare  | https://1.1.1.1/dns-query  |
+|阿里DNS|https://dns.alidns.com/dns-query|
+| 红鱼DNS | https://rubyfish.cn/dns-query |
+| rixCloud | https://doh.rixcloud.dev/dns-query |
+| DNS.SB | https://doh.dns.sb/dns-query |
+| Blahdns | https://doh-jp.blahdns.com/dns-query |
+| AdGuard DNS | https://dns.adguard.com/dns-query |
