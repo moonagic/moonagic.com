@@ -19,7 +19,7 @@ url: "https://moonagic.com"
 
 short_url: 'moonagic.com'
 #google_analytics: 'UA-74995541-x'
-google_analytics_url: 'https://cdn.agic.io'
+google_analytics_url: 'https://moonagic.com'
 cdn_url: '/'
 # disqus: username
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
