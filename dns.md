@@ -45,7 +45,6 @@ logo: 'images/avatar.jpg'
 | Cloudflare  | https://1.1.1.1/dns-query  |
 |阿里DNS|https://dns.alidns.com/dns-query|
 | 红鱼DNS | https://rubyfish.cn/dns-query |
-| rixCloud | https://doh.rixcloud.dev/dns-query |
 | DNS.SB | https://doh.dns.sb/dns-query |
 | Blahdns | https://doh-jp.blahdns.com/dns-query |
 | AdGuard DNS | https://dns.adguard.com/dns-query |
